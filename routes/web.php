@@ -13,6 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// loads view as well
+Route::view('/', 'welcome');
+
+// reroutes greeting to /
+// Route::redirect('/greeting', '/');
+
+// Route::get('/greeting', function() {
+//     return 'Hello, World!';
+// });
+
+Route::get('/greeting', function() {
+    return view('greeting', ['name' => 'Amelia', 'movie_title' => 'The Matrix']);
 });
