@@ -1,11 +1,11 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\MovieController;
 use App\Http\Controllers\ConstellationController;
 use App\Http\Controllers\StarChartController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,40 +18,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+})->middleware(['auth']);
 
-// loads view as well
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-// reroutes greeting to /
-// Route::redirect('/greeting', '/');
+// to enable email verification, add 'verified' to array on line 22
 
-// Route::get('/greeting', function() {
-//     return 'Hello, World!';
-// });
-Route::view('/', 'welcome');
-Route::view('/welcome', 'welcome');
+Route::resource('constellation', ConstellationController::class)->middleware(['auth']);
+Route::get('/constellations', [ConstellationController::class, 'show_all'])->middleware(['auth']);
 
-Route::get('/movies', function() {
-    return view('movies', ['name' => 'Amelia', 'movie_title' => 'The Matrix']);
-});
+Route::get('/star-charts', [StarChartController::class, 'show_all'])->middleware(['auth']);
 
-// Route::view('/register', 'register');
-Route::get('/login', [LoginController::class, 'login']);
-Route::post('/auth', [LoginController::class, 'authenticate']);
-Route::view('/register', 'register');
+Route::view('/constellation-game', 'constellation-game')->middleware(['auth']);
+Route::view('/favorites', 'favorites')->middleware(['auth']);
 
-Route::resource('user', UserController::class);//->middleware('auth');
-Route::get('/users', [UserController::class, 'show_all']);//->middleware('auth');
 
-Route::resource('movie', MovieController::class);//->middleware('auth');
-Route::get('/movies', [MovieController::class, 'show_all']);//->middleware('auth');
-
-Route::resource('constellation', ConstellationController::class);//->middleware('auth');
-Route::get('/constellations', [ConstellationController::class, 'show_all']);//->middleware('auth');
-
-Route::get('/star-charts', [StarChartController::class, 'show_all']);//->middleware('auth');
-
-Route::view('/constellation-game', 'constellation-game');//->middleware('auth');
-
+require __DIR__.'/auth.php';

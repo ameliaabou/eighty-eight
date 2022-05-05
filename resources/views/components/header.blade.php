@@ -18,16 +18,24 @@
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
-            <span class="fs-4">The Great 88</span>
+            <img src="{{ asset('images/logo.png') }}" alt='Application Logo' width='36px'>
+            <span class="fs-4">&nbsp;&nbsp; | &nbsp;&nbsp;eighty-eight</span>
         </a>
 
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Home</a></li>
             <li class="nav-item"><a href="/constellations" class="nav-link">Constellations</a></li>
             <li class="nav-item"><a href="/star-charts" class="nav-link">Star Charts</a></li>
             <li class="nav-item"><a href="/constellation-game" class="nav-link">Play Game</a></li>
-            <li class="nav-item"><a href="/login" class="nav-link">Login</a></li>
-            <li class="nav-item"><a href="/register" class="nav-link">Register</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="/favorites" class="nav-link">Favorites</a></li>
+            <li><form method="POST" action="{{ route('logout') }}">
+                @csrf
+
+                <button class="nav-item" :href="route('logout')"
+                        onclick="event.preventDefault();
+                                    this.closest('form').submit();">
+                    {{ __('Log Out') }}
+            </button>
+            </form></li>
         </ul>
     </header>
