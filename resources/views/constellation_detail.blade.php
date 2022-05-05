@@ -1,7 +1,6 @@
 <x-header />
 
     <div class="container">
-        <div style="font-weight: bold; color: white;">{{ Auth::user()->name }} {{ Auth::user()->id }}</div>
         <h2 style="text-align: center; font-weight: bold; color: white;">
             {{ $constellation->name }}, {{ $constellation->alias }}
         </h2>
@@ -15,6 +14,15 @@
             <p>
                 <label class="h4" style="color: white;">Hemisphere: {{ $constellation->hemisphere }}</label> <br>
                 <label class="h4" style="color: white;">Season: {{ $constellation->season }}</label>
+                <form method="POST" action="/add-to-favorites">
+                    <!-- TODO:error 419 -->
+                    @csrf
+                    <div class="form-group">
+                        <input  type="hidden" name="user_id" value="{{ Auth::user()->id }}">
+                        <input  type="hidden" name="constellation_id" value="{{ $constellation->id }}">
+                        <button style="cursor:pointer" type="submit" class="btn btn-dark">Add to Favorites</button>
+                    </div>
+                </form>    
             </p>
         </div>
 

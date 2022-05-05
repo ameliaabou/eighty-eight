@@ -31,7 +31,7 @@
             <li><form method="POST" action="{{ route('logout') }}">
                 @csrf
 
-                <button class="nav-item" :href="route('logout')"
+                <button class="btn btn-dark" :href="route('logout')"
                         onclick="event.preventDefault();
                                     this.closest('form').submit();">
                     {{ __('Log Out') }}

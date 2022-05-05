@@ -6,6 +6,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\MovieController;
 use App\Http\Controllers\ConstellationController;
 use App\Http\Controllers\StarChartController;
+use App\Http\Controllers\FavoriteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,7 +35,11 @@ Route::get('/constellations', [ConstellationController::class, 'show_all'])->mid
 Route::get('/star-charts', [StarChartController::class, 'show_all'])->middleware(['auth']);
 
 Route::view('/constellation-game', 'constellation-game')->middleware(['auth']);
-Route::view('/favorites', 'favorites')->middleware(['auth']);
+
+Route::get('/favorites', [FavoriteController::class, 'show_all'])->middleware(['auth']);
+Route::post('/add-to-favorites', [FavoriteController::class, 'store'])->middleware(['auth']);
+Route::post('/remove-from-favorites', [FavoriteController::class, 'remove'])->middleware(['auth']);
+// Route::view('/favorites', 'favorites')->middleware(['auth']);
 
 
 require __DIR__.'/auth.php';
