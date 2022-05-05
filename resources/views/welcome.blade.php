@@ -1,7 +1,7 @@
 <x-header />
 {{-- {{ $user }} --}}
 <div class="container" style="height:100vh">
-    <h2 style="text-align: center; font-size: 50px; color: white;">Welcome</h2>
+    <h2 style="text-align: center; font-size: 50px; color: white;">Welcome, {{ Auth::user()->name }}.</h2>
     <br>
     <p style="text-align: center; font-size: 30px; color: white;">
         In contemporary astronomy, 88 constellations are recognized by the International Astronomical Union (IAU). Each constellation is a region of the sky, bordered by arcs of right ascension and declination. Together they cover the celestial sphere, with their boundaries adopted officially by the International Astronomical Union in 1928 and published in 1930. <br>

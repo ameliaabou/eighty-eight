@@ -1,6 +1,7 @@
 <x-header />
 
     <div class="container">
+        <div style="font-weight: bold; color: white;">{{ Auth::user()->name }} {{ Auth::user()->id }}</div>
         <h2 style="text-align: center; font-weight: bold; color: white;">
             {{ $constellation->name }}, {{ $constellation->alias }}
         </h2>
