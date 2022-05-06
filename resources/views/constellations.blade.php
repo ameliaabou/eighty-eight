@@ -7,7 +7,6 @@
             @foreach ($constellations as $constellation)
                 <div class="col" style="margin-bottom: 20px">
                     <div class="card" style="width: 302px;">
-                        {{-- TODO: do this implicitly --}}
                         <a href="/constellation/{{ $constellation->id }}"><img src="/images/{{ $constellation->image_name }}.jpg" width="300" height="200"></a>
                         <label class="h4" style="text-align: center;">{{ $constellation->alias }}</label>
                     </div>

@@ -15,7 +15,6 @@
                 <label class="h4" style="color: white;">Hemisphere: {{ $constellation->hemisphere }}</label> <br>
                 <label class="h4" style="color: white;">Season: {{ $constellation->season }}</label>
                 <form method="POST" action="/add-to-favorites">
-                    <!-- TODO:error 419 -->
                     @csrf
                     <div class="form-group">
                         <input  type="hidden" name="user_id" value="{{ Auth::user()->id }}">
@@ -31,10 +30,12 @@
             <p style="font-size: 20px; margin: 5px;">
                 {{ $constellation->details }}
             </p>
-            <label class="h4" style="font-weight: bold; margin: 5px;">Mythological Connections:</label>
-            <p style="font-size: 20px; margin: 5px;">
-                {{ $constellation->myth }}
-            </p>            
+            @if($constellation->myth != '')
+                <label class="h4" style="font-weight: bold; margin: 5px;">Mythological Connections:</label>
+                <p style="font-size: 20px; margin: 5px;">
+                    {{ $constellation->myth }}
+                </p>
+            @endif      
         </div>
     </div>
 
