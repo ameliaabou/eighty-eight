@@ -4,8 +4,8 @@
 eighty-eight
 </h1>
 
-## About
-
+## GitHub Repository
+<a href="https://github.com/ameliaabou/laravel-app">https://github.com/ameliaabou/laravel-app</a>
 ## Features
 
 This application was created with the purpose of providing people with a website where they can explore the basics of star-gazing. 
