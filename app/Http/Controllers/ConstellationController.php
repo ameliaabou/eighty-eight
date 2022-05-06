@@ -68,36 +68,31 @@ class ConstellationController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Display the specified resource.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function show_random()
     {
-        //
+        $constellation_id = rand(1, 88);
+
+        return view('constellation-game', [
+            'constellation' => Constellation::findOrFail($constellation_id)
+        ]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    public function show_correct(Request $request)
     {
-        //
+        $constellation_id = $request->input('constellation_id');
+        $const_name_guess = strtolower($request->input('constellation_name'));
+
+        // $guess = Constellation::where('id', $constellation_id)->where('image_name', $const_name_guess);
+
+        return view('constellation-game-answer', [
+            'constellation' => Constellation::findOrFail($constellation_id),
+            'guess' => $const_name_guess
+        ]);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

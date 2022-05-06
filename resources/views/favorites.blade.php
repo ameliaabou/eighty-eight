@@ -1,7 +1,7 @@
 <x-header />
 
 <div class="container">
-    <h2 style="text-align: center; font-size: 50px; color: white;">My Favorites</h2>
+    <h2 style="text-align: center; font-size: 50px; color: white;">Favorites</h2>
     <hr>
     <div class="row">
         @if($favorites->count() > 0)

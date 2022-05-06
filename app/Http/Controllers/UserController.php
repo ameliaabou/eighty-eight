@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
@@ -69,25 +70,11 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        return view('welcome', [
+        $id = Auth::user()->id;
+        return view('/profile', [
             'user' => User::find($id)
-        ]);
-    }
-
-    /**
-     * Display all users.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show_all()
-    {
-        // die and dump (shows information but prettier), useful for debugging
-        // dd(User::all());
-        return view('welcome', [
-            'users' => User::all()
         ]);
     }
 

@@ -9,10 +9,6 @@ use App\Models\Favorite;
 
 class FavoriteController extends Controller
 {
-    public function index() {
-        // $favorites = Favorite::where('user_id', Auth::user()->id)->get();
-        // return view('favorites', compact('favorites'));
-    }
 
     /**
      * Display all favorites.
