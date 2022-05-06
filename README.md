@@ -34,9 +34,9 @@ Styling:
 2. Enter your name and email
 - An error will appear at submission if email does not match the required format 'xxx@xxx.xxx'
 3. Enter your password
-- An error will appear (your password is not at least 8 characters long)
+- An error will appear if your password is not at least 8 characters long
 4. Confirm your password
-- An error will appear (your passwords do not match)
+- An error will appear if your passwords do not match
 5. Click 'Register' to create your account.
 - You will be logged in automatically.
 
