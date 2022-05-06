@@ -1,6 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\MovieController;
+use App\Http\Controllers\ConstellationController;
+use App\Http\Controllers\StarChartController;
+use App\Http\Controllers\FavoriteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,20 +19,38 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+})->middleware(['auth']);
 
-// loads view as well
-Route::view('/', 'welcome');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
 
-// reroutes greeting to /
-// Route::redirect('/greeting', '/');
+// to enable email verification, add 'verified' to array on line 22
 
-// Route::get('/greeting', function() {
-//     return 'Hello, World!';
-// });
+Route::resource('constellation', ConstellationController::class)->middleware(['auth']);
+Route::get('/constellations', [ConstellationController::class, 'show_all'])->middleware(['auth']);
+Route::get('/constellation-game', [ConstellationController::class, 'show_random'])->middleware(['auth']);
+Route::post('/constellation-game/check', [ConstellationController::class, 'show_correct'])->middleware(['auth']);
 
-Route::get('/greeting', function() {
-    return view('greeting', ['name' => 'Amelia', 'movie_title' => 'The Matrix']);
-});
+Route::get('/constellation-game/check', function () {
+    return redirect('/constellation-game');
+})->middleware(['auth']);;
+
+Route::get('/star-charts', [StarChartController::class, 'show_all'])->middleware(['auth']);
+
+// Route::view('/constellation-game', 'constellation-game')->middleware(['auth']);
+
+Route::get('/favorites', [FavoriteController::class, 'show_all'])->middleware(['auth']);
+Route::post('/add-to-favorites', [FavoriteController::class, 'store'])->middleware(['auth']);
+Route::post('/remove-from-favorites', [FavoriteController::class, 'remove'])->middleware(['auth']);
+
+Route::get('/add-to-favorites', function () {
+    return redirect('/');
+})->middleware(['auth']);;
+Route::get('/remove-from-favorites', function () {
+    return redirect('/');
+})->middleware(['auth']);;
+
+require __DIR__.'/auth.php';
