@@ -24,6 +24,10 @@ Styling:
 ## Deployment
 
 - Clone this repository
+- sail artisan migrate
+- sail artisan db:seed --class=ConstellationsTableSeeder
+- sail artisan db:seed --class=StarChartsTableSeeder
+- (optional: uses factory to create users) sail artisan db:seed --class=DatabaseSeeder
 - sail up
 
 ## Take the FULL tour (Testing)
