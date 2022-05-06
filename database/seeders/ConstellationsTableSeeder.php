@@ -25,25 +25,25 @@ class ConstellationsTableSeeder extends Seeder
                 'details' => "Andromeda is the 19th largest constellation in the sky, occupying an area of 722 square degrees. It is located in the first quadrant of the northern hemisphere (NQ1). The constellation Andromeda can be seen at latitudes between +90° and -40°. The neighboring constellations are Cassiopeia, Lacerta, Pegasus, Perseus, Pisces and Triangulum. Andromeda has three stars brighter than magnitude 3.00 and three stars located within 10 parsecs (32.6 light years) of Earth. The brightest star in the constellation is Alpha Andromedae, also known by its traditional name, Alpheratz. The nearest star is Ross 248 (spectral class M6V), also known as HH Andromedae. It lies at a distance of only 10.30 light years from Earth. The constellation Andromeda contains nine named stars. The star names approved by the International Astronomical Union (IAU) are Adhil (Xi Andromedae), Almach (Gamma Andromedae A), Alpheratz (Alpha Andromedae Aa), Buna (HD 16175), Mirach (Beta Andromedae), Nembus (51 Andromedae), Sterrennacht (HAT-P-6), Titawin (Upsilon Andromedae A), and Veritate (14 Andromedae A). Andromeda belongs to the Perseus family of constellations, along with Auriga, Cassiopeia, Cepheus, Cetus, Lacerta, Pegasus, Perseus, and Triangulum. It contains three Messier objects – Messier 31 (Andromeda Galaxy), Messier 32 and Messier 110.",
                 'myth' => "In Greek mythology, Andromeda was the daughter of King Cepheus of Ethiopia and Queen Cassiopeia, who offended the Nereids (sea nymphs) by claiming she was more beautiful than they were. The nymphs complained to the sea god Poseidon and he sent a sea monster, Cetus, to flood and destroy Cepheus’ lands as punishment for his wife’s boastfulness. When the king sought advice from the Oracle of Ammon on how to prevent complete destruction of his lands, he was told that the only way to appease the gods and nymphs was to sacrifice his daughter to Cetus. Subsequently, Andromeda was chained to a rock and would have been left to the monster if the hero Perseus had not come along and saved her. The two were later married and had six children, including Gorgophonte, who fathered Tyndareus, the famous Spartan king, and Perses, who was an ancestor of the Persians. In the story, it was the goddess Athena who commemorated the princess Andromeda by placing her image among the stars, next to the constellations representing her husband Perseus and mother Cassiopeia.",
                 'hemisphere' => 'Northern',
-                'season' => 'Autumn'
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Antlia',
                 'image_name' => 'antlia',
                 'alias' => 'The Air Pump',
-                'details' => "",
-                'myth' => "",
+                'details' => "Antlia is one of the smaller constellations in the sky (62nd in size), occupying an area of 239 square degrees. It is located in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +45° and -90°. The neighboring constellations are Centaurus, Hydra, Pyxis, and Vela. Antlia contains one formally named star. The star name approved by the International Astronomical Union (IAU) is Macondo (HD 93083). Antlia belongs to the Lacaille family of constellations, along with Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Norma, Octans, Pictor, Reticulum, Sculptor, and Telescopium.",
+                'myth' => "Antlia does not have a myth associated with it. It was named after the air pump, Antlia pneumatica, an instrument invented by the French physicist Denis Papin, who is also famous for inventing the steam digester, which preceded the steam engine and the pressure cooker. As depicted by Lacaille, Antlia represents the single-cylinder pump that Papin used in his experiments in the 1670s. The constellation Antlia was first catalogued in Lacaille’s Coelum Australe Stelliferum, published posthumously in 1763. The catalogue included almost 10,000 southern stars, 42 nebulous objects, and 14 new constellations, now known as the Lacaille family.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Apus',
                 'image_name' => 'apus',
                 'alias' => 'The Bird of Paradise',
-                'details' => "",
-                'myth' => "",
+                'details' => "Apus is the 67th constellation in size, occupying an area of 206 square degrees. It lies in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +5° and -90°. The neighboring constellations are Ara, Chamaeleon, Circinus, Musca, Octans, Pavo, and Triangulum Australe. Apus belongs to the Johann Bayer family of constellations, along with Chamaeleon, Dorado, Grus, Hydrus, Indus, Musca, Pavo, Phoenix, Tucana, and Volans. Apus does not have any Messier objects and there are no meteor showers associated with the constellation. Apus contains one formally named star. The star name approved by the International Astronomical Union (IAU) is Karaka (HD 137388).",
+                'myth' => "Apus was originally named Paradysvogel Apis Indica by Petrus Plancius, who created and introduced the constellation. Paradysvogel means 'the bird of paradise' in Dutch, and Apis Indica is Latin for 'indian bee.' Apis, the word for 'bee,' was presumably used in error and the constellation should have been named Avis, which means 'bird.' The constellation was also called Apis Indica in Bayer’s Uranometria, while other astronomers, like Johannes Kepler, referred to it as Avis Indica, as Kepler did in his Rudolphine Tables in 1627. As a result of the confusion, Avis Indica was renamed to Apus, and Apis, the constellation representing the bee, became Musca, the fly. French astronomer Lacaille called the constellation Apus in his chart of the southern skies published in 1763, but both Apis and Avis continued to be used well into the 19th century.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Aquarius',
@@ -76,739 +76,740 @@ class ConstellationsTableSeeder extends Seeder
                 'name' => 'Aries',
                 'image_name' => 'aries',
                 'alias' => 'The Ram',
-                'details' => "",
-                'myth' => "",
+                'details' => "Aries is the 39th largest constellation in the sky, occupying 441 square degrees. It lies in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -60°. The neighboring constellations are Cetus, Perseus, Pisces, Taurus, and Triangulum. Aries belongs to the Zodiac family of constellations, along with Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpius, Sagittarius, Capricornus, Aquarius, and Pisces.",
+                'myth' => "Babylonians identified Aries as the agrarian worker, the last stop on the ecliptic. The name of the constellation later changed to Ram, but why Babylonians changed it is uncertain. In the 7th century BC, Neo-Babylonians did a revision of the Babylonian zodiac that placed Alpha Arietis, Hamal, very close to the vernal equinox, which is how Aries came to be so prominent among the zodiac signs in astrology. In those times, Aries contained the equinox, the point at which the Sun crosses the celestial equator from north to south. Because of precession (slow wobble of Earth’s axis), the vernal equinox is no longer in Aries, but in Pisces. In 130 BC, however, it was located just south of Gamma Arietis (Mesarthim) and was taken to be the starting point of the zodiac. In Greek myth, Aries is identified with the golden ram that rescued Phrixus and took him to Colchis, where he sacrificed the ram to the gods. The ram’s skin that he placed in a temple was the Golden Fleece, which later appears in the story of Jason and the Argonauts. Phrixus was the son of a Boeotian king. He had a twin sister, Helle. The children had a stepmother, Ino, who did not like them and wanted to get rid of them. She came up with a plan to put the land of the brink of famine by making sure the wheat crops failed. When a man was sent to consult the Oracle at Delphi, Ino bribed him to lie and say the Oracle asked for the king’s children to be sacrificed if they did not want the people to starve. Phrixus and Helle were saved by a winged ram with golden wool. The ram was sent by their real mother, the cloud nymph Nephele. It took both children and flew east to Colchis. Only Phrixus survived the journey. Helle fell off the ram and drowned in the Dardanelles. The strait was later renamed to Hellespont, or sea of Helle, in her memory. Phrixus was welcomed by King Aeëtes of Colchis, to whom he presented the Golden Fleece. In return, the king gave Phrixus his daughter Chalciope’s hand.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Auriga',
                 'image_name' => 'auriga',
                 'alias' => 'The Charioteer',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Northern',
-                'season' => ''
+                'details' => "Auriga is the 21st biggest constellation in the night sky, occupying 657 square degrees. It is located in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -40°. The neighboring constellations are Camelopardalis, Gemini, Lynx, Perseus, and Taurus. Auriga belongs to the Perseus family of constellations, together with Andromeda, Cassiopeia, Cepheus, Cetus, Lacerta, Pegasus, Perseus, and Triangulum.",
+                'myth' => "Auriga is usually depicted as a charioteer, holding the reins of a chariot with his right hand and carrying a goat and its two young on his left arm. Even though the image of the charioteer appears in Johann Bode’s Uranographia (1801), none of the stories Auriga is usually associated with have a goat in them. In mythology, Auriga is most frequently identified with Erichthonius, king of Athens and son of the fire god Hephaestus. Erichthonius was raised by the goddess Athena, who taught him many skills he wouldn’t have ordinarily learned. He was the first man to tame and harness four horses to a chariot, imitating the chariot of the Sun god. Zeus was impressed and later placed Erichthonius among the stars. Erichthonius is usually credited for the invention of the four-horse chariot, the quadriga. In another myth, Auriga represents Hephaestus himself, the lame god, who built the chariot so that he could travel anywhere he wanted, whenever he wanted, without difficulty. In another popular myth, the charioteer is Myrtilus, son of Hermes, who served King Oenomaus of Pisa. Oenomaus had a beautiful daughter, Hippodamia, and was determined not to give her hand away to any of her suitors. He would challenge each of them to a chariot race. If he caught up with them before they arrived to Corinth, they would meet their end at his hands. With Myrtilus driving the king’s chariot, none of Hippodamia’s suitors survived the race until Pelops, son of Tantalus, came to ask the king for his daughter’s hand. Hippodamia fell in love with Pelops at first sight and asked Myrtilus to let him win. The charioteer, who was himself in love with the king’s daughter, obeyed and tampered with the chariot’s wheels. During the race, the wheels fell off and King Oenomaus was thrown off the chariot and did not survive. Once Pelops had won the race, he cast his rival Myrtilus into the sea. Betrayed, Myrtilus cursed the house of Pelops before he drowned. It was Myrtilus’ father Hermes who placed his son’s image among the stars. The star Capella, Alpha Aurigae, is associated with Amalthea, the goat who was foster-mother to Zeus. The name Capella is Roman and means 'she-goat.' The star is located on the Charioteer’s left shoulder.",
+                'hemisphere' => 'Northern (circumpolar)',
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Boötes',
                 'image_name' => 'bootes',
                 'alias' => 'The Herdsman',
-                'details' => "",
-                'myth' => "",
+                'details' => "Boötes is the 13th largest constellation in the night sky, occupying an area of 907 square degrees. It is located in the third quadrant of the northern hemisphere (NQ3) and can be seen at latitudes between +90° and -50°. The neighboring constellations are Canes Venatici, Coma Berenices, Corona Borealis, Draco, Hercules, Serpens Caput, Virgo, and Ursa Major. Boötes belongs to the Ursa Major family of constellations, along with Camelopardalis, Canes Venatici, Coma Berenices, Corona Borealis, Draco, Leo Minor, Lynx, Ursa Major, and Ursa Minor.",
+                'myth' => "Boötes is traditionally depicted as a herdsman with two hunting dogs on a leash and a club in his other hand. In the sky, Boötes follows Ursa Major around the pole. In one story, the constellation represents a ploughman driving the oxen in the Ursa Major constellation, followed by his two dogs, Asterion and Chara (represented by the constellation Canes Venatici, the Hunting Dogs). The ploughman’s oxen are tied to the polar axis and their movement keeps the skies in constant rotation. Most commonly, Boötes is taken to represent Arcas, son of Zeus and Callisto, daughter of the Arcadian king Lycaon. Arcas was brought up by his grandfather, the king, who one day decided to test Zeus by serving him his own son for a meal. Zeus, however, saw through Lycaon’s intentions, transformed the cruel king into a wolf, struck down all his sons with thunderbolts, and brought Arcas back to life. Zeus’ wife Hera, having heard of her husband’s disloyalty, transformed Callisto into a bear. Callisto roamed the woods until years later she met her son, who was now grown up. Arcas didn’t recognize his mother and began to chase her. Callisto hid herself in a temple, where he could not hurt her without risking being convicted for defiling a sacred place. To avoid a tragedy, Zeus placed both of them in the sky; Callisto as Ursa Major and Arcas as Boötes. In another story, Boötes is taken to represent Icarius, a grape grower who once invited Dionysus to visit his vineyards. The god was so impressed that he gave Icarius the secret of making wine. Icarius followed the recipe and enjoyed the beverage so much that he invited all his friends to try it. However, they had never tried wine before and, when they woke up the next day not feeling well, they assumed Icarius had tried to poison them. Angry, they did away with him while he slept. Dionysus was saddened by the passing of his friend and decided to place Icarius among the stars. In another myth, Boötes is credited for inventing the plough, which prompted the goddess Ceres to place him in the heavens.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Caelum',
                 'image_name' => 'caelum',
                 'alias' => 'The Engraving Tool',
-                'details' => "",
-                'myth' => "",
+                'details' => "Caelum is the eighth smallest constellation in the sky, occupying an area of only 125 square degrees. It lies in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +40° and -90°. The neighboring constellations are Columba, Dorado, Eridanus, Horologium, Lepus, and Pictor. Caelum has one star with a confirmed exoplanet, the eclipsing binary RR Caeli. The giant planet in the star system has a mass about four times that of Jupiter and orbits the binary pair with a period of 11.9 years.",
+                'myth' => "There are no myths associated with Caelum. It is one of the constellations introduced by the French astronomer Lacaille in the 18th century. Lacaille named his constellations after various instruments and tools, not stories and myths. Caelum is depicted as a sculptor’s chisel. It first appeared in Lacaille’s map of the southern stars published in 1756, as “les Burins,” a pair of crossed burins connected by a ribbon. (Burins are sharp engraving tools.) In Johann Bode’s star atlas Uranographia, the constellation still had the longer name, Caela Scalptoris.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Camelopardalis',
                 'image_name' => 'camelopardalis',
                 'alias' => 'The Giraffe',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Northern',
-                'season' => ''
+                'details' => "Camelopardalis is the 18th largest constellation in the night sky, occupying an area of 757 square degrees. It is located in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -10°. The neighboring constellations are Auriga, Cassiopeia, Cepheus, Draco, Lynx, Perseus, Ursa Major, and Ursa Minor. Camelopardalis belongs to the Ursa Major family of constellations, along with Boötes, Canes Venatici, Coma Berenices, Corona Borealis, Draco, Leo Minor, Lynx, Ursa Major, and Ursa Minor.",
+                'myth' => "The Giraffe constellation is pretty faint, with no stars brighter than fourth magnitude. The Greeks did not see any stars in Camelopardalis and thought this region of the sky, as well as what is now the constellation Lynx, was empty. There are no myths associated with the constellation as it was only created in the 17th century. While the giraffe is not a reference to mythology, the constellation’s name could be a reference to the book of Genesis in the Bible, but this remains doubtful. When Jacob Bartsch included Camelopardalis on his star map of 1624, he described the constellation as a camel on which Rebecca rode into Canaan, where she was to marry Isaac. Since Camelopardalis represents a giraffe and not a camel, this explanation does not seem likely.",
+                'hemisphere' => 'Northern (circumpolar)',
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Cancer',
                 'image_name' => 'cancer',
                 'alias' => 'The Crab',
-                'details' => "",
-                'myth' => "",
+                'details' => "Cancer is the 31st largest constellation in the sky, occupying an area of 506 square degrees. It lies in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -60°. The neighboring constellations are Canis Minor, Gemini, Hydra, Leo, Leo Minor, and Lynx. Cancer belongs to the zodiac family of constellations, along with Aries, Taurus, Gemini, Leo, Virgo, Libra, Scorpius, Sagittarius, Capricornus, Aquarius, and Pisces.",
+                'myth' => "In mythology, Cancer is associated with the crab in the story of the Twelve Labours of Heracles (represented by the Hercules constellation). In the myth, Hera sends the crab to distract Hercules while the hero is fighting the Lernaean Hydra, the serpent-like beast with many heads and poisonous breath, represented by Hydra constellation. When the crab approaches Hercules, the hero kicks it all the way to the stars. In another version, the crab gets crushed instead and Hera, a sworn enemy of Hercules, places it in the sky for its efforts. However, she places the crab in a region of the sky that has no bright stars, because despite its efforts, the crab was not successful in accomplishing the task. Cancer does not have any stars brighter than fourth magnitude.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Canes Venatici',
                 'image_name' => 'canes_venatici',
                 'alias' => 'The Hunting Dogs',
-                'details' => "",
-                'myth' => "",
+                'details' => "Canes Venatici is the 38th largest constellation in the sky, occupying an area of 465 square degrees. It is located in the third quadrant of the northern hemisphere (NQ3) and can be seen at latitudes between +90° and -40°. The neighboring constellations are Boötes, Coma Berenices, and Ursa Major. Canes Venatici has only one star brighter than magnitude 3.00 and two stars located within 10 parsecs (32.6 light years) of Earth. The brightest star in Canes Venatici is Cor Caroli, Alpha Canum Venaticorum. The nearest star, DG Canum Venaticorum (spectral class M4.0Ve), is only 25.89 light years distant from Earth. The constellation has four stars with known planets. Canes Venatici belongs to the Ursa Major family of constellations, along with Boötes, Camelopardalis, Coma Berenices, Corona Borealis, Draco, Leo Minor, Lynx, Ursa Major, and Ursa Minor.",
+                'myth' => "In the Middle Ages, Canes Venatici was identified with the two dogs held on a leash by Boötes, the Herdsman, because there was a mistake in the translation of Ptolemy’s Almagest from Greek to Arabic. In Ptolemy’s text, some of the stars in Boötes represent the Herdsman’s club. The translator loosely translated the Greek word for 'club' as 'the spearshaft with a hook'. When the Arabic phrase he used was later translated to Latin, the translator mistook one of the words for kilāb, which means 'dogs.' Boötes was depicted with two dogs in 1533 on a map by the German astronomer Peter Apian, and Hevelius decided to define the dogs’ position in the night sky in the 17th century. Hevelius named the northern dog Asterion ('little star' in Greek) and the southern one Chara ('joy'). The name Chara later started to be used specifically to refer to the star Beta CVn.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Canis Major',
                 'image_name' => 'canis_major',
                 'alias' => 'The Great Dog',
-                'details' => "",
-                'myth' => "",
+                'details' => "Canis Major is the 43rd biggest constellation in the sky, occupying an area of 380 square degrees. It is located in the second quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +60° and -90°. The neighboring constellations are Columba, Lepus, Monoceros, and Puppis. Canis Major belongs to the Orion family of constellations, along with Canis Minor, Lepus, Monoceros, and Orion.",
+                'myth' => "Canis Major is commonly taken to represent the 'greater dog' following the hunter Orion in Greek myth. The constellation is depicted as a dog standing on its hind legs, pursuing a hare, represented by the constellation Lepus. Canis Major was described by Manilius as 'the dog with the blazing face' because the dog appears to hold Sirius, the brightest star in the sky, in its jaws. In mythology, Canis Major is associated with Laelaps, the fastest dog in the world, one destined to catch anything it pursued. Zeus gave Laelaps to Europa as a present, along with a javelin that could not miss. The gift proved to be an unfortunate one, as Europa herself met her end at the hands of her husband Cephalus, who was out hunting with the javelin. Cephalus took the dog to Thebes in Boeotia (a Greek province north of Athens) to hunt down a fox that was causing some trouble there. Like Laelaps, the fox was very fast and was destined never to be caught. Once the dog found the fox and started chasing it, the race did not appear to have an end in sight. Zeus himself finally ended it and turned both animals to stone. He placed the dog in the night sky as the constellation Canis Major.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Canis Minor',
                 'image_name' => 'canis_minor',
                 'alias' => 'The Lesser Dog',
-                'details' => "",
-                'myth' => "",
+                'details' => "Canis Minor is the 71st largest constellation in the sky, occupying an area of 183 square degrees. It is one of the 15 equatorial constellations. It lies in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -75°. The neighboring constellations are Cancer, Gemini, Hydra, and Monoceros. Canis Minor belongs to the Orion family of constellations, along with Canis Major, Lepus, Monoceros, and Orion.",
+                'myth' => "Canis Minor is most commonly identified as one of the dogs following Orion, the hunter in Greek myth. In another legend, the constellation is said to represent Maera, the dog of the unlucky wine-maker Icarius. Icarius met his end at the hands of a group of shepherds to whom he had offered wine. The shepherds had never tasted wine before and thought Icarius had poisoned them. Maera found Icarius’ body and ran to his daughter Erigone. Both the daughter and the dog were overwhelmed with grief and took their own lives. Zeus later placed their images in the sky. In this version of the myth, Icarius is associated with Boötes, the Herdsman, Erigone with the constellation Virgo, and Maera with Canis Minor. Hyginus (Latin author who lived at the turn of the millennium) confused the myth somewhat in his writings. He wrote that the shepherds escaped to the island of Ceos and, as punishment for their misdeed, the island was stricken with sickness and famine, which were attributed to the searing Dog Star, Sirius. (Procyon is mistaken for Sirius here, the other 'dog star,' located in Canis Major.) When Aristaeus, King of Ceos asked the god Apollo, who was also his father, for advice on saving his people from starvation, he was told to pray to Zeus. Aristaeus did so and Zeus sent Etesian winds to the island. Every year, the myth goes, Etesian winds blow for 40 days and cool Greece and its islands during the Dog Days of summer. After Zeus had sent relief to Ceos, the priests instituted the custom of making ritual sacrifices to the gods every year before the rising of Sirius. In yet another myth, Canis Minor is identified as the Teumessian fox, the animal that could not be outrun, and was eventually turned into stone by Zeus, who also turned its hunter, Laelaps, to stone. (Laelaps was an exceptionally fast dog, destined to always catch its prey. In the myth, the dog is represented by the constellation Canis Major.) To commemorate the event, Zeus placed both animals in the sky.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Capricornus',
                 'image_name' => 'capricornus',
                 'alias' => 'The Sea Goat',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Capricornus is the 40th biggest constellation in the sky, occupying an area of 414 square degrees. It lies in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +60° and -90°. The neighboring constellations are Aquarius, Aquila, Microscopium, Piscis Austrinus, and Sagittarius. The best time of year to see Capricornus is during the month of September. Capricornus belongs to the zodiac family of constellations, along with Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpius, Sagittarius, Aquarius, and Pisces.",
+                'myth' => "Even though Capricornus is one of the faintest constellations in the sky, it is associated with myths and images that date back to the 21st century BCE. The story of Capricornus originated with the Babylonians and Sumerians. The Sumerians knew the constellation as the goat-fish, or SUHUR-MASH-HA, while Babylonian star catalogues compiled around 1000 BCE called it MUL.SUHUR.MAŠ, also meaning 'goat fish.' In the early Bronze Age, Capricornus marked the winter solstice and, in modern astrology, Capricorn’s rule still begins on the first day of astronomical winter. The Greeks associated the constellation with the forest deity Pan, who had the legs and horns of a goat. Crotus, his son, is usually associated with another amphibious creature, represented by the neighboring constellation Sagittarius. Pan was placed in the sky by Zeus in gratitude for his coming to the other gods’ rescue on several occasions. During the gods’ war with the Titans, Pan helped scare the Titans away by blowing his conch shell. Later, he warned the gods that Typhon, a monster sent by Gaia to fight them, was approaching. He also suggested that gods disguise themselves as animals until the danger passed. In the myth, Pan eluded the monster himself by jumping into the river Nile and turning the lower part of his body into that of a fish. Zeus eventually struck down Typhon with his thunderbolts. In reference to the myth, Capricornus is still often depicted as a goat with the tail of a fish. In another story, Capricornus is identified as Amalthea, the goat that suckled Zeus when he was an infant, hiding from his father Cronos. Cronos had devoured his other children, all future gods and goddesses, because of a prophecy that said that he would be overthrown by one of them.",
+                'hemisphere' => 'Southern',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Carina',
                 'image_name' => 'carina',
                 'alias' => 'The Keel',
-                'details' => "",
-                'myth' => "",
+                'details' => "Carina is the 34th largest constellation in the sky, occupying an area of 494 square degrees. It lies in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +20° and -90°. The neighboring constellations are Centaurus, Chamaeleon, Musca, Pictor, Puppis, Vela, and Volans. Carina belongs to the Heavenly Waters family of constellations, along with Columba, Delphinus, Equuleus, Eridanus, Piscis Austrinus, Puppis, Pyxis, and Vela.",
+                'myth' => "Carina by itself is not associated with any myth in particular, but the larger constellation to which it once belonged – Argo Navis – represented the ship on which Jason and the Argonauts sailed to Colchis (western part of present-day Georgia, on the Black Sea) to get the Golden Fleece. Argo Navis was one of the 48 constellations known to the Greeks and catalogued by Ptolemy in his Almagest. It occupied a vast area of space between the constellations Canis Major and Crux (the Southern Cross). The constellation Pyxis (compass), created from stars that used to form the constellation Malus, which represented the ship’s mast in ancient times, was added near the ship later. Carina represents the main body of Argo Navis and the star Canopus marks the blade on one of the ship’s steering oars. The ship was named after its creator Argus, who built it under the orders of Athena, using timber from Mount Pelion. Athena fitted the ship with an oak beam from the oracle of Zeus at Dodona, believed to be the oldest Hellenic oracle. The oak beam, as the myth goes, was able to speak because it was part of an oracle.",
                 'hemisphere' => 'Southern (circumpolar)',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Cassiopeia',
                 'image_name' => 'cassiopeia',
                 'alias' => 'The Seated Queen',
-                'details' => "",
-                'myth' => "",
+                'details' => "Cassiopeia is the 25th largest constellation in the night sky, occupying an area of 598 square degrees. It lies in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -20°. The neighboring constellations are Andromeda, Camelopardalis, Cepheus, Lacerta, and Perseus. Cassiopeia belongs to the Perseus family of constellations, along with Andromeda, Auriga, Cepheus, Cetus, Lacerta, Pegasus, Perseus, and Triangulum.",
+                'myth' => "In mythology, Cassiopeia was the wife of King Cepheus (represented by the neighbouring constellation Cepheus in the sky) of Ethiopia. Once, she boasted that she was more beautiful than the Nereids. The Nereids were the 50 sea nymphs fathered by the Titan Nereus. They were enraged by Cassiopeia’s comments and appealed to Poseidon to punish Cassiopeia for her boastfulness. Poseidon was married to one of the nymphs, Amphitrite. The sea god obliged and sent Cetus, a sea monster represented by the constellation Cetus (the Whale), located in the same region of the sky, to ravage the coast of Cepheus’ kingdom. Cepheus turned to an oracle for help and the oracle told him that, in order to appease Poseidon, he and Cassiopeia had to sacrifice their daughter Andromeda to the sea monster. Reluctantly, they did so, leaving Andromeda chained to a rock for the monster to find. However, she was saved in the last minute by the Greek hero Perseus, who happened to be passing by, saw Andromeda and rescued her from the monster. Perseus and Andromeda were later married. At the wedding, one of her former suitors, named Phineus, appeared and claimed that he was the only one who had the right to marry Andromeda. There was a fight and Perseus, desperately outnumbered, used the head of Medusa to defeat his opponents. One look at Medusa’s head turned them all into stone. In the process, however, the king and queen also met their end because they did not look away from the monster’s head in time. It was Poseidon who placed Cassiopeia and Cepheus in the sky. Cassiopeia, the myth goes, was condemned to circle the celestial pole forever, and spends half the year upside down in the sky as punishment for her vanity. She is usually depicted on her throne, still combing her hair.",
                 'hemisphere' => 'Northern (circumpolar)',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Centaurus',
                 'image_name' => 'centaurus',
                 'alias' => 'The Centaur',
-                'details' => "",
-                'myth' => "",
+                'details' => "Centaurus is the ninth largest constellation in the sky, occupying an area of 1060 square degrees. It lies in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +25° and -90°. The neighboring constellations are Antlia, Carina, Circinus, Crux, Hydra, Libra, Lupus, Musca, and Vela. Centaurus belongs to the Hercules family of constellations, along with Aquila, Ara, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Serpens, Sextans, Triangulum Australe, and Vulpecula.",
+                'myth' => "The origins of Centaurus go way back to the constellation that the Babylonians knew as the Bison-man (MUL.GUD.ALIM). They depicted it either as a four-legged bison with the head of a man or a creature with a human head and torso attached to the rear legs of a bison or bull. The Babylonians associated the creature with the Sun god Utu (Shamash). In Greek and Roman times, the constellation Centaurus was associated with a centaur, a mythical creature that was half man, half horse. However, it is not entirely clear which centaur the constellation represents. According to Ovid, the Roman poet who lived at the turn of the first millennium, it represents Chiron, the wise centaur who mentored many well-known Greek heroes: Achilles, Jason, Theseus, Heracles, and Apollo’s son Asclepius (represented by the constellation Ophiuchus), among others. Most other sources, however, associate Chiron with the constellation Sagittarius and Centaurus with one of the less civilized centaurs. Chiron was the son of the Titan king Cronus and the sea nymph Philyra. Cronus seduced the nymph, but two were surprised by Cronus’ wife Rhea. To evade being caught in the act, Cronus turned himself into a horse. As a result, Philyra gave birth to a hybrid son. Chiron was a well-known and respected teacher of medicine, music and hunting. He lived in a cave on Mount Pelion and taught many young princes and future heroes. He met a tragic end after being accidentally struck by one of Heracles’ arrows, which the hero had dipped in Hydra’s blood, a poison for which there was no cure. Being the son of the immortal Cronus, Chiron was himself immortal. When the arrow struck him, he was in terrible pain, but stayed alive. Zeus eventually released the centaur from immortality, allowing him to pass, and later placed him among the stars. Centaurus is usually depicted as a centaur sacrificing an animal, represented by the constellation Lupus, to the gods on the altar represented by Ara constellation. The centaur’s front legs are marked by two of the brightest stars in the sky, Alpha and Beta Centauri, also known as Rigil Kentaurus and Hadar. The two stars also serve as pointers to the Southern Cross, which lies under the centaur’s rear legs.",
                 'hemisphere' => 'Southern (circumpolar)',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Cepheus',
                 'image_name' => 'cepheus',
                 'alias' => 'The King',
-                'details' => "",
-                'myth' => "",
+                'details' => "Cepheus is the 27th largest constellation in the night sky, occupying an area of 588 square degrees. It is located in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -10°. The neighboring constellations are Camelopardalis, Cassiopeia, Cygnus, Draco, Lacerta, and Ursa Minor. Cepheus belongs to the Perseus family of constellations, along with Andromeda, Auriga, Cassiopeia, Cetus, Lacerta, Pegasus, Perseus, and Triangulum.",
+                'myth' => "The constellation represents Cepheus, the king of Ethiopia and Cassiopeia’s husband in Greek mythology. Zeus placed him in the sky after his tragic end because he was descended from one of Zeus’ loves, the nymph Io. Cepheus ruled not the modern-day Ethiopia, but the stretch of land between the southeastern Mediterranean and the Red Sea, the area that contains parts of the modern-day Egypt, Israel and Jordan. Cepheus’ wife Cassiopeia was a very vain woman. Once, she boasted that she was more beautiful than the Nereids (sea nymphs, one of them the wife of the sea god Poseidon), which angered the nymphs and Poseidon, who then sent a sea monster, represented by the constellation Cetus, to ravage Cepheus’ land. Cepheus turned to an oracle for advice on how to prevent a calamity and the oracle told him that the only way to appease Poseidon was to sacrifice his daughter Andromeda to the monster. Desperate, Cepheus and Cassiopeia did this, leaving their daughter chained to the rock for Cetus to find. Luckily, the hero Perseus found the princess first, rescued her and defeated the monster. Later, he married Andromeda. Perseus and Andromeda were celebrating their wedding when Phineus, Cepheus’ brother, turned up, claiming that she had been promised to him first. Phineus and his followers asked that Andromeda be turned over to them, but Cepheus refused them and there was a fight. Perseus tried to fight off all his opponents, but he was sorely outnumbered and had to use the head of Medusa to turn his enemies into stone. Unfortunately, the king and queen did not look away from the Gorgon’s head in time and were turned to stone, too.",
                 'hemisphere' => 'Northern (circumpolar)',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Cetus',
                 'image_name' => 'cetus',
                 'alias' => 'The Sea Monster',
-                'details' => "",
-                'myth' => "",
+                'details' => "Cetus is the fourth largest constellation in the sky, occupying an area of 1231 square degrees. It is one of the 15 equatorial constellations. It lies in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +70° and -90°. The neighboring constellations are Aquarius, Aries, Eridanus, Fornax, Pisces, Sculptor, and Taurus. Cetus belongs to the Perseus family of constellations, along with Andromeda, Auriga, Cassiopeia, Cepheus, Lacerta, Pegasus, Perseus, and Triangulum.",
+                'myth' => "Cetus represents the sea monster from the Greek myth of the princess Andromeda, whose boastful mother Cassiopeia angered the sea god Poseidon and the Nereids (sea nymphs) by claiming that she was more beautiful than any of them. To appease the sea god and the nymphs, Cassiopeia and her husband, King Cepheus, had to sacrifice their young daughter to Cetus, a sea monster sent by Poseidon to punish the king and queen, or watch the monster ravage their land. Andromeda was chained to a rock and left to the sea monster, but to her good fortune, the hero Perseus was passing by just as Cetus was about to devour her. Perseus rescued the princess and defeated Cetus. He and Andromeda were later married. Cetus was commonly depicted by the Greeks as a hybrid creature. It had forefeet, huge jaws, and a scaly body like a giant sea serpent. Even though the constellation is also known as the Whale, the mythical creature in the depictions does not in fact look like a whale.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Chamaeleon',
                 'image_name' => 'chamaeleon',
                 'alias' => 'The Chamaeleon',
-                'details' => "",
-                'myth' => "",
+                'details' => "Chamaeleon is the 79th largest constellation in the sky, occupying an area of only 132 square degrees. It lies in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between 0° and -90°. The neighboring constellations are Apus, Carina, Mensa, Musca, Octans, and Volans. Chamaeleon has one star with known planets and does not contain any Messier objects. The brightest star in the constellation is Alpha Chamaeleontis. Alpha Chamaeleontis is also the nearest star in Chamaeleon, located at a distance of 63.45 light years from Earth. Chamaeleon belongs to the Johann Bayer family of constellations, along with Apus, Dorado, Grus, Hydrus, Indus, Musca, Pavo, Phoenix, Tucana, and Volans.",
+                'myth' => "There are no myths associated with Chamaeleon constellation. It is one of the constellations charted by Dutch navigators in the 16th century and named after exotic animals by Plancius. In this case, the constellation was named after a lizard that changes colour to match the environment. The Dutch cartographer Jodocus Hondius depicted the constellation as a chameleon sticking its tongue out to catch the fly represented by the neighboring constellation Musca.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Circinus',
                 'image_name' => 'circinus',
                 'alias' => 'The Compass',
-                'details' => "",
-                'myth' => "",
+                'details' => "Circinus is the fourth smallest constellation in the sky, 85th in size, occupying an area of only 93 square degrees. It lies in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +30° and -90°. The neighboring constellations are Apus, Centaurus, Lupus, Musca, Norma, and Triangulum Australe.",
+                'myth' => "There are no myths associated with Circinus. The constellation was named after the drafting tool used for drawing circles (not after a mariner’s compass, which is represented by the constellation Pyxis). It is depicted as a pair of dividing compasses used by draughtsmen to measure distances. Lacaille originally named the constellation le Compas and placed it next to Triangulum Australe, which he depicted as a surveyor’s level, to fill the void between several existing constellations in the south.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Columba',
                 'image_name' => 'columba',
                 'alias' => 'The Dove',
-                'details' => "",
-                'myth' => "",
+                'details' => "Columba is the 54th constellation in size, occupying an area of 270 square degrees. It lies in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +45° and -90°. The neighboring constellations are Caelum, Canis Major, Lepus, Pictor, and Puppis. Columba can be seen just south of Canis Major and Lepus. Columba belongs to the Heavenly Waters family of constellations, along with Carina, Delphinus, Equuleus, Eridanus, Piscis Austrinus, Puppis, Pyxis, and Vela. Columba does not contain any Messier objects. There are no meteor showers associated with the constellation.",
+                'myth' => "Columba represents Noah’s dove. Petrus Plancius created the constellation from the stars located behind Argo Navis, the constellation that represented the Argonauts’ ship and was later split into several smaller constellations. Plancius later renamed Argo Navis to “Noah’s Ark” on a celestial globe of 1613. In the myth, Noah’s dove is sent from the Ark to see if there is any dry land left after the Great Flood. The bird returns holding an olive branch in its beak, signalling that the flood is receding. In some interpretations, Columba represents the dove sent by the Argonauts between the Clashing Rocks to ensure the Argonauts’ safe passage.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Coma Berenices',
                 'image_name' => 'coma_berenices',
                 'alias' => "The Bernice's Hair",
-                'details' => "",
-                'myth' => "",
+                'details' => "Coma Berenices is the 42nd constellation in size, occupying an area of 386 square degrees. It lies in the third quadrant of the northern hemisphere (NQ3) and can be seen at latitudes between +90° and -70°. The neighboring constellations are Boötes, Canes Venatici, Leo, Ursa Major, and Virgo. Coma Berenices belongs to the Ursa Major family of constellations, along with Boötes, Camelopardalis, Canes Venatici, Corona Borealis, Draco, Leo Minor, Lynx, Ursa Major and Ursa Minor.",
+                'myth' => "Coma Berenices is associated with the story of a historical figure, Queen Berenice II of Egypt. Berenice was married to Ptolemy III Euergetes (fl. 246 BC-221 BC), who went on a dangerous mission against the Seleucids in 243 BC, during the Third Syrian War. Worried for her husband’s life, the queen swore to Aphrodite that she would cut off her beautiful long, blonde hair if the goddess brought Ptolemy back home safely. Once her husband returned, Berenice fulfilled her promise to the goddess. She cut off her hair and placed it in Aphrodite’s temple. The hair disappeared the next day. This made the king furious. To appease him, the court astronomer Conon said that Aphrodite was so pleased with Berenice’s offering that she had placed it in the sky, pointing to the group of stars that have since been known as Berenice’s Hair.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Corona Australis',
                 'image_name' => 'corona_australis',
                 'alias' => 'The Southern Crown',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Corona Australis is one of the smallest constellations in the sky. Only the 80th in size, it occupies an area of 128 square degrees. It lies in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +40° and -90°. The neighboring constellations are Ara, Sagittarius, Scorpius, and Telescopium. Corona Australis belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe, and Vulpecula.",
+                'myth' => "Corona Australis, the Southern Crown, was known by the Greeks as a wreath, not a crown. Before Ptolemy introduced its stars as a separate constellation, Corona Australis was known as a circlet of stars near the forefeet of the centaur represented by the neighbouring constellation Sagittarius. The constellation is sometimes associated with the myth of Dionysus. In the story, Corona Australis represents the crown the god placed in the sky after freeing his mother Semele from the god of the underworld, Hades. This particular myth, however, is also sometimes associated with the Northern Crown, Corona Borealis. Ptolemy originally assigned 13 stars to the constellation Corona Australis, but one of them was later moved to the constellation Telescopium, where it became Alpha Telescopii.",
+                'hemisphere' => 'Southern',
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Corona Borealis',
                 'image_name' => 'corona_borealis',
                 'alias' => 'The Northern Crown',
-                'details' => "",
-                'myth' => "",
+                'details' => "Corona Borealis is the 73rd constellation in size, occupying an area of 179 square degrees. It lies in the third quadrant of the northern hemisphere (NQ3) and can be seen at latitudes between +90° and -50°. The neighboring constellations are Boötes, Hercules, and Serpens Caput. Corona Borealis belongs to the Ursa Major family of constellations, along with Coma Berenices, Boötes, Camelopardalis, Canes Venatici, Draco, Leo Minor, Lynx, Ursa Major and Ursa Minor.",
+                'myth' => "Corona Borealis is associated with the myth of Princess Ariadne of Crete, most famous for her part in helping the Greek hero Theseus defeat the Minotaur, the creature with a human body and head of a bull that lived in a labyrinth designed by Daedalus. In the myth, Ariadne married the god Dionysus. The circlet of stars in the constellation Corona Borealis represents the crown made by the god Hephaestus that she wore on her wedding day. The Minotaur was in fact Ariadne’s half-brother: according to the legend, her mother Pasiphae gave birth to the creature after copulating with one of King Minos’ bulls. The king had the Minotaur locked inside the labyrinth to hide the family secret. The labyrinth was designed in such a way that no one, not even the Minotaur, could find a way out. When Theseus came to Crete, he was chosen to be one of the people put into the labyrinth for the Minotaur to find and eat. Ariadne fell in love with Theseus and, following Daedalus’ advice, gave him a ball of thread to take with him into the labyrinth if he promised to take her with him once he escaped. Theseus agreed. Once he defeated the Minotaur with his bare hands, the hero followed the trail of the thread and found his way out of the labyrinth. Ariadne and Theseus sailed off together shortly thereafter, but he soon abandoned her on the island of Naxos. The god Dionysus found the princess weeping, fell in love, and the two were soon married. Ariadne wore a crown made by Hephaestus at the wedding and, once the ceremony was over, she tossed it into the sky, where the jewels turned into stars and the crown became the constellation Corona Borealis. The brightest star in the constellation, Gemma, got its name from the Latin word for 'jewel.' The Arabs know the constellation as 'the poor people’s bowl' or Alphecca, which means 'broken up.' The name Alphecca was later given to the constellation’s brightest star, Alpha Coronae Borealis. The Cheyenne called the constellation the Camp Circle because its shape was similar to the way they arranged their camps, in a semi-circle. In Australia, Corona Borealis is known as Woomera, the Boomerang, and the Welsh associate it with the castle of Lady Arianrhod, the Welsh goddess who gave birth to two sons through magical means.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Corvus',
                 'image_name' => 'corvus',
                 'alias' => 'The Crow',
-                'details' => "",
-                'myth' => "",
+                'details' => "Corvus is the 70th constellation in size, occupying an area of 184 square degrees. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen from latitudes between +60° and -90°. The neighboring constellations are Crater, Hydra, and Virgo. Corvus belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe, and Vulpecula.",
+                'myth' => "The constellation Corvus represents the raven (or crow), Apollo’s sacred bird in Greek mythology. According to the myth, the raven originally had white feathers. In one story, Apollo told the bird to watch over Coronis, one of his lovers. Coronis gradually lost interest in Apollo and fell in love with a mortal man, Ischys. When the raven reported this to Apollo, the god was so enraged that the bird did nothing to stop it that he flung a curse on it, scorching the raven’s feathers. That, the legend goes, is why all ravens are black. Apollo then sent his sister Artemis to do away with Coronis. Before Coronis’ body was burned, the unborn child, Asclepius, was cut out of her womb and given to the centaur Chiron, who raised him. Asclepius grew up to be a famous healer and is represented by the constellation Ophiuchus, the serpent bearer. The Greek Corvus was borrowed from the mythical Babylonian raven, MUL.UGA.MUSHEN, which was usually depicted perched on the tail of a serpent. Babylonians associated the constellation with Adad, the god of rain and storm, because its stars would rise before the rainy season, in the fall, in the second millennium.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Crater',
                 'image_name' => 'crater',
                 'alias' => 'The Cup',
-                'details' => "",
-                'myth' => "",
+                'details' => "Crater is the 53rd constellation in size, occupying an area of 282 square degrees. It is located in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +65° and -90°. The neighboring constellations are Corvus, Hydra, Leo, Sextans, and Virgo. Crater belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe, and Vulpecula.",
+                'myth' => "In Greek mythology, the Crater constellation represents the cup of the god Apollo. The cup is usually depicted as a two-handed chalice. The constellation is associated with the story of Apollo and his sacred bird, either the crow or the raven, which is represented by the neighbouring constellation Corvus. In the story, the god Apollo is about to make a sacrifice on the altar and he needs some water to perform the ritual. The god sends the raven to promptly fetch some water in his cup, but the bird gets distracted by a fig tree and spends a few days lazily resting and waiting for the figs to ripen. After feasting on the figs, the raven finally brings Apollo the cup filled with water and he also brings a water snake (Hydra) as an excuse for being so late. Apollo sees through the raven’s lies and angrily casts all three – the cup (Crater), the water snake (Hydra) and the raven (Corvus) into the sky. Apollo also casts a curse on the raven, scorching its feathers and making the bird eternally thirsty and unable to do anything about it. This, according to the myth, is how crows and ravens came to have black feathers and why they have such raspy voices.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Crux',
                 'image_name' => 'crux',
                 'alias' => 'The Southern Cross',
-                'details' => "",
-                'myth' => "",
+                'details' => "Crux is the smallest of the 88 constellations, occupying an area of only 68 square degrees. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +20° and -90°. The neighboring constellations are Centaurus and Musca. Crux belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe, and Vulpecula.",
+                'myth' => "Crux is a famous constellation in many cultures. Ancient Greeks considered it to be part of the Centaurus constellation. Greeks were able to see Crux before its stars dropped below the horizon for Europe and most of the northern hemisphere. Some saw significance in this, linking the disappearance of the celestial cross from the sky to the crucifixion of Christ. The 2nd century Greek astronomer Ptolemy listed the stars of Crux as part of the constellation Centaurus in his Almagest. By the year 400 AD, the constellation was not visible from most of Europe anymore, and Europeans did not rediscover Crux until the great naval expeditions of the late 15th and early 16th century. The Southern Cross carries cultural significance in many countries in the southern hemisphere. A stone image of Crux constellation has been found in Machu Picchu in Peru. The Inca knew the constellation as Chakana, which means 'the stair.' The Maori called it Te Punga, or 'the anchor.' In Australian Aboriginal astronomy, the cross asterism and the Coalsack Nebula represent the head of the Emu in the Sky. The Southern Cross is represented on the Australian flag. Its stars are also featured on the flag of Brazil, where the asterism is known as Cruzeiro, or Cruzeiro do Sul. The Southern Cross is also mentioned in the Brazilian national anthem and used to be the name of the currency between 1942 and 1986 and again between 1990 and 1994. Amerigo Vespucci charted the stars in 1501, but a more accurate depiction appeared in 1515, made by another Italian explorer, Andrea Corsali. Crux appeared on celestial globes by Petrus Plancius (1598) and Jodocus Hondius (1600). Plancius, a Dutch cartographer, depicted the constellation based on observations by Pieter Dirkszoon, a Dutch explorer.",
                 'hemisphere' => 'Southern (circumpolar)',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Cygnus',
                 'image_name' => 'cygnus',
                 'alias' => 'The Swan',
-                'details' => "",
-                'myth' => "",
+                'details' => "Cygnus is the 16th largest constellation in the night sky, occupying an area of 804 square degrees. It lies in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -40°. The neighboring constellations are Cepheus, Draco, Lacerta, Lyra, Pegasus, and Vulpecula. Cygnus belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe, and Vulpecula.",
+                'myth' => "Cygnus constellation is associated with several myths, most frequently the one of the Spartan Queen Leda, who gave birth to two sets of twins, the immortal Pollux and Helen and mortal Castor and Clytemnestra, after being seduced by the god Zeus, who had transformed himself into a swan. The immortal children were fathered by the god and the mortal ones by Leda’s husband, King Tyndareus. Castor and Pollux are represented by the zodiac constellation Gemini. Cygnus is also sometimes identified as Orpheus, the Greek tragic hero who met his end at the hands of the Thracian Maenads for not honouring Dionysus. After his passing, Orpheus was transformed into a swan and placed next to his lyre in the sky. The lyre is represented by the neighbouring constellation Lyra. Cygnus constellation is also sometimes associated with any of the several people called Cycnus in Greek mythology. The most famous ones are Cycnus, the son of Ares who met his end after challenging Hercules to a duel, Cycnus, the son of Poseidon, who fought on the side of the Trojans in the Trojan War, met his end at the hands of Achilles and was transformed into a swan, and Cycnus, a close friend of Phaeton, the mortal son of the Sun god Helios. Of the above three, the myth of Phaeton is the one that is most frequently associated with Cygnus constellation. In the story, Phaeton and Cycnus were racing each other across the sky when they came too close to the Sun. Their chariots burned up and they fell to the Earth. Cycnus came to and, after looking for Phaeton for a while, he discovered his friend’s body trapped at the bottom of the Eridanus River. He was unable to recover the body, so he made a pact with Zeus: if the god gave him the body of a swan, he would only live as long as a swan usually does. Once transformed, Cycnus was able to dive into the river, retrieve Phaeton’s body and give his friend a proper burial. This allowed Phaeton’s soul to travel to the afterlife. Zeus was moved by Cycnus’ sacrifice and placed his image in the sky. The Chinese also associate the constellation with a myth, the one of the 'magpie bridge,' Que Qiao. In the story, the lovers Niu Lang and Zhi Nu are separated by the Goddess of Heaven because Zhi Nu is a fairy, and is therefore not allowed to be with a mortal man. When the Goddess learns that the two are secretly married, she takes Zhi Nu with her and creates a river in the sky to keep the lovers separated. The river is represented by the Milky Way itself in the legend. Zhi Nu’s husband Niu Lang takes their two children to Heaven so that they can all be together, but the Goddess does not relent and keeps the lovers separated. Once a year, the myth goes, all the magpies in the world assemble to help the lovers be together by forming an enormous bridge over the wide river. The constellation Cygnus represents the magpie bridge in this story.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Delphinus',
                 'image_name' => 'delphinus',
                 'alias' => 'The Dolphin',
-                'details' => "",
-                'myth' => "",
+                'details' => "Delphinus is the 69th constellation in size, occupying an area of 189 square degrees. It lies in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -70°. The neighboring constellations are Aquarius, Aquila, Equuleus, Pegasus, Sagitta, and Vulpecula. Delphinus belongs to the Heavenly Waters family of constellations, along with Carina, Columba, Equuleus, Eridanus, Piscis Austrinus, Puppis, Pyxis, and Vela.",
+                'myth' => "There are two myths associated with the constellation Delphinus. In one, the dolphin constellation represents Poseidon’s messenger. When the sea god courted the nymph Amphitrite, one of the Nereids, she resisted his advances and took refuge among her sisters. Poseidon sent messengers to find her and bring her to him, among them a dolphin. The dolphin found the nymph, soothed her and brought her back to the god. The two were later married. Poseidon decided to honour the dolphin and placed his image among the stars. In the other myth, it was Apollo, the god of poetry and music, who placed the dolphin among the constellations for saving the life of Arion, a poet and musician born on the island of Lesbos, whose skill with the lyre made him famous in the 7th century BC. Arion was sailing back to Greece after a concert tour of southern Italy when the sailors who were also on the ship started plotting to take the money he had earned. Surrounded, Arion asked them to let him sing one last song. The sailors allowed this, and Arion’s music drew several dolphins to the ship. As he played, the dolphins swam alongside the ship and Arion decided to take a leap of faith and he jumped overboard. One of the dolphins saved him and carried him all the way back to Greece. In this version of the myth, Apollo placed the dolphin next to the constellation Lyra in the sky, and Lyra represents Arion’s lyre. The constellation Delphinus was also sometimes referred to as Job’s Coffin because of its long, box-like shape. Mostly, the name was restricted to the asterism formed by Alpha, Beta, Gamma and Delta Delphini.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Dorado',
                 'image_name' => 'dorado',
                 'alias' => 'The Swordfish',
-                'details' => "",
-                'myth' => "",
+                'details' => "Dorado is the 72nd constellation in size, occupying an area of 179 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +20° and -90°. The neighboring constellations are Caelum, Horologium, Hydrus, Mensa, Pictor, Reticulum, and Volans. Dorado belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Grus, Hydrus, Indus, Musca, Pavo, Phoenix, Tucana, and Volans.",
+                'myth' => "There are no myths associated with the constellation. Dorado was one of the 12 constellations created by the Dutch astronomer Petrus Plancius, who mostly named the newly created southern constellations after animals. Dorado has also sometimes been referred to as the Swordfish constellation, or Xipias.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Draco',
                 'image_name' => 'draco',
                 'alias' => 'The Dragon',
-                'details' => "",
-                'myth' => "",
+                'details' => "Draco is the eighth largest constellation in the night sky, occupying an area of 1083 square degrees. It lies in the third quadrant of the northern hemisphere (NQ3) and can be seen at latitudes between +90° and -15°. The neighboring constellations are Boötes, Camelopardalis, Cepheus, Cygnus, Hercules, Lyra, Ursa Major, and Ursa Minor. Draco belongs to the Ursa Major family of constellations, along with Coma Berenices, Boötes, Camelopardalis, Canes Venatici, Corona Borealis, Leo Minor, Lynx, Ursa Major and Ursa Minor.",
+                'myth' => "The constellation Draco is associated with several myths, most frequently with the one about the 12 labours of Heracles, represented by the neighbouring constellation Hercules. In the myth, Draco represents Ladon, the dragon that guarded the golden apples in the gardens of the Hesperides. The golden apple tree was a wedding present to Hera when she married Zeus. She planted the tree in her garden on Mount Atlas and tasked Atlas’ daughters, the Hesperides, with guarding it. She also placed the dragon Ladon around the tree so that the Hesperides would not pick any apples from it. In some versions of the myth, Ladon had a hundred heads and was the child of the monster Typhon and Echidna, who was half woman and half serpent. In others, he was the offspring of two sea deities, Ceto and Phorcys, and there is no mention of the number of heads he had. As part of his 12 labours, Heracles was asked to steal some golden apples from the tree. He defeated Ladon with his poisoned arrows and took the apples. Saddened by the dragon’s passing, Hera placed its image in the sky among the constellations. Draco is usually depicted coiled around the North Pole, with one foot of Heracles on its head. In Roman mythology, Draco was one of the Giant Titans who warred with the Olympian gods for ten years. The Titan met his end at the hands of the goddess Minerva and was thrown into the sky, where it froze around the North Pole.",
                 'hemisphere' => 'Northern (circumpolar)',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Equuleus',
                 'image_name' => 'equuleus',
                 'alias' => 'The Little Horse',
-                'details' => "",
-                'myth' => "",
+                'details' => "Equuleus is the second smallest constellation in the night sky, after Crux (the Southern Cross). It occupies only 72 square degrees. The constellation is located in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -80°. The neighboring constellations are Aquarius, Delphinus and Pegasus. Equuleus does not contain any Messier objects and there are no meteor showers associated with the constellation. Equuleus belongs to the Heavenly Waters constellation family, along with Carina, Columba, Delphinus, Eridanus, Piscis Austrinus, Puppis, Pyxis, and Vela.",
+                'myth' => "Equuleus, the little horse constellation, is usually associated with Hippe, the daughter of the centaur Chiron in Greek mythology. In Greek lore, Hippe was seduced by Aeolus and became pregnant with his child. Too ashamed to tell her father, she hid the pregnancy from Chiron. She escaped to the mountains and stayed there until she gave birth to the child, named Melanippe. When Chiron came looking for Hippe, she prayed to the gods that he doesn’t find her and they turned her into a mare. In one version of the tale, it was the goddess Artemis who placed Hippe among the constellations. She still appears to be hiding from Chiron, with only her head showing behind Pegasus. (Chiron is represented by the constellation Centaurus.) Equuleus constellation is also sometimes associated with Celeris, a foal given as a present to Castor by Mercury. The name Celeris means 'speed' or 'swiftness.' The foal was either the brother or offspring of Pegasus, the famous winged horse, represented by the larger neighboring constellation.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Eridanus',
                 'image_name' => 'eridanus',
                 'alias' => 'The River',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Southern',
-                'season' => ''
+                'details' => "Eridanus is the sixth largest constellation in the night sky, occupying an area of 1138 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +32° and -90°. The neighboring constellations are Caelum, Cetus, Fornax, Horologium, Hydrus, Lepus, Orion, Phoenix, Taurus and Tucana. Eridanus belongs to the Heavenly Waters family of constellations, along with Carina, Columba, Delphinus, Equuleus, Piscis Austrinus, Puppis, Pyxis, and Vela.",
+                'myth' => "In Greek mythology, the constellation Eridanus is associated with the story of Phaëton (or Phaëthon), the son of the Sun god Helios and the Oceanid Clymene. According to legend, Phaëton wanted to drive his father’s chariot across the sky and kept begging for Helios’ permission to do so until the god agreed, advising Phaëton to follow the beaten track where he saw wheel marks. Phaëton mounted the chariot and the horses, sensing that the driver was lighter, flew upwards into the sky, leaving the familiar track behind. The inexperienced driver could not control the horses and the reins slipped from his hands. The chariot plunged so close to the Earth that lands caught fire. It is said that this was how Libya became a desert, Ethiopians got dark skin, and the seas dried up. Zeus saw what was going on and had to intervene to prevent further calamity. He struck Phaëton down with a thunderbolt and, when Phaëton’s hair caught on fire, he leapt from the chariot and fell into the Eridanus. His father Helios, stricken with grief, did not drive his chariot for days, leaving the world in darkness. The Greek poet Aratus called the constellation Eridanus, while a number of other sources, including Ptolemy, referred to it as Potamos, which means 'the river.' The Greek astronomer and poet Eratosthenes associated the celestial river with the Nile, the only river that runs from south to north. Hyginus, a Latin author, agreed, pointing out that the bright star Canopus in the constellation Carina was at the end of the river much like the island Canopus lies at the mouth of the great river in Egypt. The actual constellation, however, represents a river that runs from north to south. Later, the river came to be identified as the river Po in Italy by Greek and Latin authors. The name Eridanus, according to one theory, comes from the name of a Babylonian constellation known as the Star of Eridu (MUL.NUN.KI). Eridu was a Babylonian city held sacred to the god Enki-Ea. Enki-Ea was the ruler of the cosmic domain of the Abyss, usually imagined as a reservoir of fresh water below the Earth’s surface.",
+                'hemisphere' => 'Southern (circumpolar)',
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Fornax',
                 'image_name' => 'fornax',
                 'alias' => 'The Furnace',
-                'details' => "",
-                'myth' => "",
+                'details' => "Fornax is the 41st largest constellation in the sky, occupying an area of 398 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +50° and -90°. The neighboring constellations are Cetus, Eridanus, Phoenix and Sculptor. Fornax belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Horologium, Mensa, Microscopium, Norma, Octans, Pictor, Reticulum, Sculptor, and Telescopium.",
+                'myth' => "Fornax was introduced by Nicolas Louis de Lacaille in 1756, after his trip to the Cape of Good Hope, where he observed the southern stars and constellations. Lacaille originally named the constellation Fornax Chemica, the chemical furnace, after the small fuel heater used for chemical experiments. It was the English astronomer Francis Bailey who shortened the constellation’s name to Fornax at John Herchel’s suggestion in 1845.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Gemini',
                 'image_name' => 'gemini',
                 'alias' => 'The Twins',
-                'details' => "",
-                'myth' => "",
+                'details' => "Gemini is the 30th largest constellation in the sky, occupying an area of 514 square degrees. It lies in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -60°. The neighboring constellations are Auriga, Cancer, Canis Minor, Lynx, Monoceros, Orion and Taurus. Gemini belongs to the zodiac family of constellations, along with Aries, Taurus, Cancer, Leo, Virgo, Libra, Scorpius, Sagittarius, Capricornus, Aquarius and Pisces.",
+                'myth' => "Gemini constellation represents the twins Castor and Polydeuces in Greek mythology. The brothers were also known as the Dioscuri, which means 'sons of Zeus.' In most versions of the myth, however, only Polydeuces was Zeus’ son, and Castor was the son of the mortal King Tyndareus of Sparta. The twins’ mother, Spartan Queen Leda, was seduced by Zeus, who visited the queen in the form of a swan, associated with the constellation Cygnus (the Swan), and she became pregnant with Polydeuces and Helen (who would become the famous Helen of Troy). Leda later also became pregnant with Castor and Clytemnestra (who would later marry Agamemnon). Castor and Clytemnestra were fathered by Tyndareus and, unlike Zeus’ children, they were mortal. Castor and Polydeuces grew up together and were very close. Castor was an excellent horseman and proficient at fencing – he is said to have taught Heracles himself to fence – and Polydeuces was famed for his boxing skills. The two were part of the Argonauts’ expedition to get the Golden Fleece. Polydeuces’ boxing skills came in handy when Amycus, a son of Poseidon who ruled Asia Minor, refused to let the Argonauts leave until one of them fought him in a boxing match. Polydeuces accepted the challenge and easily won. The twins came to the crew’s rescue on a number of occasions. They have been known as the patron saints of sailors, and were said to have been given the power to rescue sailors who were shipwrecked by the sea god Poseidon himself, who also gave them two white horses, which the twins often rode. The Dioscuri are associated with St. Elmo’s fire, an electrical phenomenon that occurs during thunderstorms, when a coronal discharge from a pointed object in a strong electric field creates luminous plasma. The phenomenon is named after another patron saint of sailors, St. Erasmus of Formiae. St. Elmo’s fire would appear to sailors as a glowing ball of light during thunderstorms and they considered it as a sign that their guardian saint was with them. In the myth, Castor and Polydeuces clashed with Idas and Lynceus, who were also twins and former Argonauts, over two women, Phoebe and Hilaera, who were engaged to the latter. Castor and Polydeuces were drawn to the women and carried them off. Idas and Lynceus pursued and caught up with the twins. Castor met his end at Idas’ hands and Polydeuces did away with Lynceus. When Idas tried to avenge his brother, Zeus intervened and sent a thunderbolt which saved his son. Polydeuces asked Zeus to share his immortality with his brother and the god placed them both in the sky, where they remain inseparable as the constellation Gemini. The two brightest stars in the constellation, Alpha and Beta Geminorum, mark the twins’ heads. Not everyone identified the constellation as Castor and Polydeuces in ancient times. Hyginus and Ptolemy associated the two stars with Apollo and Heracles, who were half-brothers and both sons of Zeus.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Grus',
                 'image_name' => 'grus',
                 'alias' => 'The Crane',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Grus is the 45th constellation in size, occupying an area of 366 square degrees in the sky. It is located in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +34° and -90°. The neighboring constellations are Indus, Microscopium, Piscis Austrinus, Phoenix, Sculptor and Tucana. Grus belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Hydrus, Indus, Musca, Pavo, Phoenix, Tucana and Volans. Grus does not contain any Messier objects. There are no meteor showers associated with the constellation.",
+                'myth' => "There are no myths associated with the constellation. Grus was one of the 12 constellations created by Dutch explorers in the late 16th century. The only connection the crane has with mythology lies in the fact that it was a sacred bird to the god Hermes. The constellation was created from stars located to the south of the constellation Piscis Austrinus. The brightest star in Grus is called Alnair, which means 'the bright one from the fish’s tail' in Arabic. Similarly, the proper name of Gamma Gruis, Al Dhanab, also means 'the tail' in Arabic.",
+                'hemisphere' => 'Southern (circumpolar)',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Hercules',
                 'image_name' => 'hercules',
                 'alias' => 'Hercules',
-                'details' => "",
-                'myth' => "",
+                'details' => "Hercules is the fifth largest constellation. It occupies an area of 1225 square degrees in the sky. The constellation lies in the third quadrant of the northern hemisphere (NQ3) and can be seen at latitudes between +90° and -50°. The neighboring constellations are Aquila, Boötes, Corona Borealis, Draco, Lyra, Ophiuchus, Sagitta, Serpens Caput and Vulpecula. Hercules belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "Hercules constellation dates back to ancient times. Its origin was unclear even to the Greeks. They knew it as Engonasin, or 'the kneeling one.' It was Eratosthenes who identified the kneeler as Heracles, standing over the dragon that guarded the garden of the Hesperides. Aeschylus associated the constellation with a different tale, describing Heracles as kneeling and exhausted after the battle with the Ligurians. Heracles was the son of Zeus and Alcmene, a mortal woman. When he was an infant, Zeus laid him at Hera’s breast while she slept. Having suckled her milk, Heracles became immortal. Hera was enraged by this and made Heracles’ life difficult at every turn. She cast a spell that made him lose his mind and turn against his children. Once he regained his senses and realized what he had done, he visited the Oracle at Delphi to see how he could atone for his deed. The Oracle sent him to serve Eurystheus, king of Mycenae, for a period of 12 years. It was then that he got the name Heracles, which means 'the glory of Hera.' His given name at birth was Alcides, Alcaeus, or Palaemon according to different sources. King Eurystheus gave Heracles a series of tasks, known as the Labours of Heracles. The first was to defeated the Nemean lion, a beast with an impenetrable skin. After Heracles had strangled the lion, he used its claws to cut off the skin and later used the pelt as a cloak and the gaping mouth as a helmet, which both protected him and made him look even more frightening. The Nemean lion is represented by the constellation Leo. The second task was to destroy the Hydra, represented by Hydra constellation, a monster with multiple heads. As he fought with the beast, Hera sent a crab to distract him. Heracles did away with the crab, and Hera placed it in the sky as the constellation Cancer. Heracles was then sent to catch a deer with golden horns and, after that, a ferocious boar. The fifth task was to clean the stables of King Augeias of Elis. The sixth was to do away with a flock of marauding birds, and the seventh, to catch a bull that breathed fire and was ravaging the land on Crete. The eighth labour was to bring the horses of King Diomedes of Thrace, which ate flesh, to Eurystheus. The ninth was to bring the king the belt of Hippolyte, the queen of the Amazons. The tenth labour was to steal the cattle of Geryon, a monster that lived on the island of Erytheia. On his way back, he was confronted by local forces that outnumbered and nearly overcame him. He sank to his knees and prayed to Zeus. The god helped him by sending rocks, which Heracles threw at his adversaries. This is the event that, according to Aeschylus, was commemorated by the constellation Engonasin (the kneeler). Even though Eurystheus and Heracles had originally agreed on ten tasks, when Heracles came back, the king refused to release him from his service and set two additional tasks. The first was to steal the golden apples from Hera’s garden on Mount Atlas. The garden was guarded by the Hesperides, daughters of the titan Atlas, and the Hesperides were guarded by the dragon Ladon, whose task was to make sure that they did not steal any of the apples. The dragon is represented by the constellation Draco. Hera herself placed the dragon in the sky after Heracles had slain it. The final labour was the most difficult one. Heracles was sent to the gates of the Underworld to fetch Cerberus, the dog that had three heads and was tasked with guarding the entrance and making sure those who had crossed the river Styx did not try to escape. Heracles used his pelt to protect himself and dragged the dog to Eurystheus. The king, who had not expected to see Heracles again, had no choice but to release him. After completing the twelve labours, Heracles married Deianeira, daughter of King Oeneus. While the two were travelling together, they came to the river Evenus where the centaur Nessus ferried people across. Heracles swam across the river, but Deianeira needed to be carried and Nessus, who offered to do it, fell in lust with her and tried to ravage her. Heracles hit the centaur with an arrow that was tipped in the Hydra’s poison. Before the end, Nessus offered Deianeira some of his blood, saying that it could be used as a love charm. Deianeira kept the blood, poisoned by Heracles’ arrow. Much later, she became worried that Heracles’ attention was wandering to another woman and she gave him a shirt on which she had smeared Nessus’ blood. When Heracles put it on, Hydra’s poison started burning his flesh and, once he realized what was going on, he built himself a pyre on Mount Oeta and lay on his pelt, ready to meet his end. The fire burned the part of him that was mortal, and the immortal part joined Zeus and the other gods on Mount Olympus. Zeus placed Heracles in the sky as the constellation now known by its Roman name, Hercules.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Horologium',
                 'image_name' => 'horologium',
                 'alias' => 'The Clock',
-                'details' => "",
-                'myth' => "",
+                'details' => "Horologium is the 58th constellation in size, occupying an area of 249 square degrees in the night sky. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +30° and -90°. The neighboring constellations are Caelum, Dorado, Eridanus, Hydrus and Reticulum. Horologium belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Mensa, Microscopium, Norma, Octans, Pictor, Reticulum, Sculptor, and Telescopium.",
+                'myth' => "Lacaille named the constellation after the pendulum clock to honour its inventor Christiaan Huygens. The constellation represents the pendulum clock Lacaille used to time his observations. The brightest star in the constellation, Alpha Horologii, represents the pendulum in some depictions and marks one of the weights in others.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Hydra',
                 'image_name' => 'hydra',
                 'alias' => 'The Female Water Snake',
-                'details' => "",
-                'myth' => "",
+                'details' => "Hydra is the largest of the 88 constellations. It occupies an area of 1303 square degrees in the night sky. The constellation lies in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +54° and -83°. The neighboring constellations are Antlia, Cancer, Canis Minor, Centaurus, Corvus, Crater, Leo, Libra, Lupus, Monoceros, Puppis, Pyxis, Sextans and Virgo. Hydra belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "Hydra constellation as depicted by the Greeks is an adaptation of the Babylonian constellation MUL.DINGIR.MUŠ, which was one of the two Babylonian constellations that represented a serpent and loosely corresponded to Hydra. The other constellation corresponded to the Greek constellation Serpens. The Babylonian constellation represented a mythological hybrid of a serpent, bird and lion. Hydra constellation is usually associated with the second of Heracles’ labours in Greek mythology. Hydra was a giant multi-headed creature fathered by the monster Typhon and Echidna, who was half-woman, half-serpent. The dragon Ladon, that guarded the garden of the Hesperides, was Hydra’s brother. The dragon, also defeated by Heracles, is represented by the constellation Draco, while the hero is commemorated by the constellation Hercules. In mythology, Hydra had nine heads and one of them was immortal. The celestial Hydra is depicted with only one head, presumably the immortal one. The monster lived near the town of Lerna, where it ravaged the land. Heracles, faced with a difficult task, first aimed flaming arrows into the Hydra’s lair and smoked it out. Then he fought with it, smashing the creature’s heads one by one with his club. Every time he smashed one, two new heads would grow in its place. While the two fought, Heracles was distracted by a crab, which crawled out of the swamp and went for his foot. Heracles did away with the crab and Hera placed it among the stars as the constellation Cancer. Heracles was able to defeat the Hydra when his charioteer Iolaus helped him by burning the stumps of each head that Heracles struck off, and eventually Heracles cut off the immortal head and buried it under a rock. He dipped his arrows in Hydra’s poisonous blood, which would eventually lead to his own end. In a different myth, the constellation Hydra is associated with the water snake on which Apollo’s crow blamed its tardiness. The god had sent the bird, represented by the constellation Corvus, to fetch him some water in a cup. The cup is associated with the constellation Crater. The crow was distracted by a fig tree and stopped to feast. When it finally returned to Apollo, it said the water snake was to blame, but the god saw through the bird’s lie and punished it by placing it into the sky. Apollo also turned the water snake and the cup into constellations. In the sky, the water snake (Hydra) eternally prevents the crow (Corvus) from drinking out of the cup (Crater).",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Hydrus',
                 'image_name' => 'hydrus',
                 'alias' => 'The Male Water Snake',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Southern',
-                'season' => ''
+                'details' => "Hydrus is the 61st constellation in size, occupying an area of 243 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +8° and -90°. The neighboring constellations are Dorado, Eridanus, Horologium, Mensa, Octans, Phoenix, Reticulum and Tucana. Hydrus belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Grus, Indus, Musca, Pavo, Phoenix, Tucana and Volans.",
+                'myth' => "Hydrus is not associated with any myths. It is a southern constellation, one that wasn’t visible to the ancient Greeks or Romans. The constellation was mapped by Dutch navigators and it represents the sea snakes they would have seen on their voyages. The French astronomer Nicolas Louis de Lacaille gave the constellation the name l’Hydre Mâle to emphasize the difference in gender between Hydrus and Hydra on his planisphere of the southern skies, published in 1756. Lacaille also transferred several stars to the constellations Tucana, Octans, Horologium, and Reticulum. In Bayer’s Uranometria (1603) Hydrus’ tail had extended to the star Lambda Octantis, which used to belong to Hydrus and is now part of the constellation Octans.",
+                'hemisphere' => 'Southern (circumpolar)',
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Indus',
                 'image_name' => 'indus',
                 'alias' => 'The Indian',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Indus is the 49th constellation in size, occupying an area of 294 square degrees. It lies in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +15° and -90°. The neighboring constellations are Grus, Microscopium, Octans, Pavo, Sagittarius, Telescopium and Tucana. Indus belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Grus, Hydrus, Musca, Pavo, Phoenix, Tucana and Volans.",
+                'myth' => "There are no myths associated with the constellation. The Indian is usually depicted holding arrows or spears as though hunting. The early depictions, including the one in Bayer’s Uranometria, indicate that Indus might represent a native of Madagascar as depicted in an account of Dutch navigators’ first voyage to the East Indies. However, it is unclear whether the constellation really represents a native of the East Indies, or Madagascar, or South Africa, as the explorers encountered a number of indigenous peoples on their travels.",
+                'hemisphere' => 'Southern',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Lacerta',
                 'image_name' => 'lacerta',
                 'alias' => 'The Lizard',
-                'details' => "",
-                'myth' => "",
+                'details' => "Lacerta is the 68th constellation in size, occupying an area of 201 square degrees. It is located in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -40°. The neighboring constellations are Andromeda, Cassiopeia, Cepheus, Cygnus and Pegasus. Lacerta belongs to the Perseus family of constellations, along with Andromeda, Auriga, Cassiopeia, Cepheus, Cetus, Pegasus, Perseus and Triangulum.",
+                'myth' => "The name Lacerta does not come from mythology. Johannes Hevelius introduced the constellation in Firmamentum Sobiescianum, his star atlas published in 1690. He gave the constellation an alternative name, Stellio, after a type of lizard known as a starred agama, but this name was not used much and soon fell into oblivion.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Leo',
                 'image_name' => 'leo',
                 'alias' => 'The Lion',
-                'details' => "",
-                'myth' => "",
+                'details' => "Leo is the 12th largest constellation in size, occupying an area of 947 square degrees. It is located in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -65°. The neighboring constellations are Cancer, Coma Berenices, Crater, Hydra, Leo Minor, Lynx, Sextans, Ursa Major and Virgo. Leo belongs to the Zodiac family of constellations, along with Aries, Taurus, Gemini, Cancer, Virgo, Libra, Scorpius, Sagittarius, Capricornus, Aquarius and Pisces.",
+                'myth' => "Leo is one of the oldest constellations in the sky. Archaeological evidence suggests that Mesopotamians had a constellation similar to Leo as early as 4000 BC. The Persians knew the constellation as Shir or Ser, Babylonians called it UR.GU.LA ('the great lion'), Syrians knew it as Aryo, and the Turks as Artan. Babylonians knew the star Regulus as 'the star that stands at the Lion’s breast,' or the King Star. Both the constellation and its brightest star were well-known in most ancient cultures. The Greeks associated Leo with the Nemean lion, the beast defeated by Heracles during the first of his twelve labours. Both Eratosthenes and Hyginus wrote that the lion was placed among the constellations because it was the king of beasts. The lion lived in a cave in Nemea, a town located to the south-west of Corinth. It set upon the local inhabitants and could not be defeated because it had impenetrable skin. Heracles could not defeat the lion with arrows, so he trapped it in its cave, grappled with the beast and eventually defeated it. He used the lion’s claws to cut off its pelt, and then wore the pelt as a cloak, complete with the lion’s head. The cloak both protected Heracles and made him appear even more fearsome. In the sky, the six bright stars that form the Sickle of Leo represent the lion’s head, and the brightest star in the constellation, Regulus (Alpha Leonis), marks the beast’s heart. Another bright star, Denebola (Beta Leonis) marks the tip of the lion’s tail. Algieba (Gamma Leonis) lies on the lion’s neck, even though its name means 'the forehead.' Zosma (Delta Leonis) marks the lion’s rump.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Leo Minor',
                 'image_name' => 'leo_minor',
                 'alias' => 'The Lesser Lion',
-                'details' => "",
-                'myth' => "",
+                'details' => "Leo Minor is the 64th constellation in size, occupying an area of 232 square degrees. It is located in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -40°. The neighboring constellations are Cancer, Leo, Lynx and Ursa Major. Leo Minor belongs to the Ursa Major family of constellations, along with Boötes, Camelopardalis, Canes Venatici, Coma Berenices, Corona Borealis, Draco, Lynx, Ursa Major and Ursa Minor.",
+                'myth' => "Leo Minor is a relatively new constellation, and has no myths associated with it. It was first depicted in 1687 in Johannes Hevelius’ Catalogus Stellarum Fixarum. In 1845, the catalogue was revised by Francis Baily, who assigned Greek letters to stars that were brighter than magnitude 4.5, but he did not give the constellation’s brightest star the designation Alpha in his British Association Catalogue. In 1870, the English astronomer Richard A. Proctor renamed the constellation to Leaena, or the Lioness, in an attempt to shorten constellation names in order to make them easier to manage on star charts, but the name was not widely adopted.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Lepus',
                 'image_name' => 'lepus',
                 'alias' => 'The Hare',
-                'details' => "",
-                'myth' => "",
+                'details' => "Lepus is the 51st constellation in size, occupying an area of 290 square degrees. It is located in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +63° and -90°. The neighboring constellations are Caelum, Canis Major, Columba, Eridanus, Monoceros and Orion. Lepus belongs to the Orion family of constellations, along with Canis Major, Canis Minor, Monoceros and Orion.",
+                'myth' => "Lepus is usually depicted as a hare being hunted by Orion or by his hunting dogs. The constellation is located under Orion’s feet. It is not associated with any particular myth. Sometimes it is also represented as a rabbit, also chased by Orion and his dogs. Alpha Leporis, the brightest star in the constellation, has the name Arneb, which means 'the hare' in Arabic. The hare’s ears are delineated by the stars Kappa, Iota, Lambda and Nu Leporis.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Libra',
                 'image_name' => 'libra',
                 'alias' => 'The Scales',
-                'details' => "",
-                'myth' => "",
+                'details' => "Libra is the 29th constellation in size, occupying an area of 538 square degrees. It lies in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +65° and -90°. The neighboring constellations are Centaurus, Hydra, Lupus, Ophiuchus, Scorpius, Serpens Caput and Virgo. Libra belongs to the Zodiac family of constellations, along with Aries, Taurus, Gemini, Cancer, Leo, Virgo, Scorpius, Sagittarius, Capricornus, Aquarius and Pisces.",
+                'myth' => "Ancient Greeks knew the part of the sky occupied by the Libra constellation as Chelae, or 'claws,' and considered it part of Scorpio constellation. Chelae represented the scorpion’s claws. The association of this region of the sky with scales was established among the Romans in the first century BC. It is said that Moon was located in Libra when Rome was founded. The Romans considered Libra to be a favoured constellation, one associated with balanced seasons and equal length of night and day. The Sun was at the autumnal equinox in Libra until the year 729, when the precession of the equinoxes shifted the equinox to Virgo. The autumnal equinox will move to constellation Leo in the year 2439.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Lupus',
                 'image_name' => 'lupus',
                 'alias' => 'The Wolf',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Southern',
-                'season' => ''
+                'details' => "Lupus is the 46th constellation in size, occupying an area of 334 square degrees. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +35° and -90°. The neighboring constellations are Centaurus, Circinus, Hydra, Libra, Norma and Scorpius. Lupus belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "The stars that now form the constellation Lupus used to be part of Centaurus constellation. They represented a sacrificed animal impaled by the centaur. The centaur was holding it toward the constellation Ara, the altar. The constellation was not associated with any animal in particular until the Renaissance times, when the Latin translation of Ptolemy’s work identified it with the wolf. The Greeks knew the constellation as Therium, a wild animal, and the Romans called it Bestia, the beast. In Greek times, the constellation was probably taken to represent a creature based on the Babylonian figure of the Mad Dog. The creature was a hybrid, with a human head and torso and legs and tail of a lion. The creature was frequently associated with the sun god and Bison-man, which is another creature from myth, and it was called UR.IDIM, with UR referring to a large carnivore, which could have been a lion, wolf, or a dog.",
+                'hemisphere' => 'Southern (circumpolar)',
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Lynx',
                 'image_name' => 'lynx',
                 'alias' => 'The Lynx',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Northern',
-                'season' => ''
+                'details' => "Lynx is the 28th constellation in size, occupying an area of 545 square degrees. It lies in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -55°. The neighboring constellations are Auriga, Camelopardalis, Cancer, Gemini, Leo, Leo Minor and Ursa Major. Lynx belongs to the Ursa Major family of constellations, along with Boötes, Camelopardalis, Canes Venatici, Coma Berenices, Corona Borealis, Draco, Leo Minor, Ursa Major and Ursa Minor.",
+                'myth' => "Hevelius named the constellation after the lynx because it is a relatively faint one. He wrote in his Prodromus astronomiae that only those who have the sight of a lynx can see it. The book is an unfinished work published by Hevelius’ wife around 1690, a few years after his passing. In the accompanying star catalogue, Hevelius called the constellation ‘Lynx, sive Tigris’ – Lynx or Tiger. While it is not known if Hevelius had any myths in mind when he named the constellation, there is a figure in mythology that might be linked to the constellation’s name. Lynceus, who sailed with Jason and the Argonauts, was said to have the keenest eyesight of all men and could even see things underground. He and his twin brother Idas were part of the expedition for the Golden Fleece. Some of the stars in Lynx were documented by the Greek astronomer Ptolemy in the 2nd century, but only as “unformed” stars near Ursa Major, and not as part of any constellation.",
+                'hemisphere' => 'Northern (circumpolar)',
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Lyra',
                 'image_name' => 'lyra',
                 'alias' => 'The Lyre',
-                'details' => "",
-                'myth' => "",
+                'details' => "Lyra is a small constellation, 52nd in size, occupying an area of 286 square degrees. It is located in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -40°. The neighboring constellations are Cygnus, Draco, Hercules and Vulpecula. Lyra belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Ophiuchus, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "
+                Lyra represents the lyre of Orpheus, the musician and poet in Greek mythology who met his end at the hands of the Bacchantes. When he passed, his lyre was thrown into a river. Zeus sent an eagle to get the lyre and placed both of them in the sky. Orpheus was the son of the Thracian King Oeagrus and the muse Calliope. When he was young, god Apollo gave him a golden lyre and taught him to play it, and his mother taught him to write verses. Orpheus was known for his ability to charm even stones with his music, for his attempts to save his wife Eurydice from the underworld, and for being the harpist and companion of Jason and the Argonauts. Without Orpheus and his music, the Argonauts would not have been able to make it past the Sirens, whose song enticed sailors to come to them, which usually resulted in sailors crashing their ships into the islands on which the Sirens lived. When the Argonauts approached the islands, Orpheus drew his lyre and played music that drowned out the Sirens’ calls. The most famous story involving Orpheus is that of the passing of his wife Eurydice. Eurydice was trying to escape a satyr at her wedding, and fell into a nest of vipers. She was bitten on the heel. Orpheus found the body and, deeply shaken, he played songs that made the gods and the nymphs cry. The gods felt pity for him and advised him to travel to the underworld and try to retrieve Eurydice. Orpheus took their advice. Once there, his song deeply moved Hades and his wife Persephone and they agreed to return Eurydice to the world of the living on one condition: Orpheus should walk in front of her and not look back until they both had reached the upper world. Orpheus and Eurydice started walking and, as much as he wanted to, he did not look back. However, he forgot that they both had to arrive to the upper world before he could turn. As soon as he reached it, he turned around, but Eurydice was not quite there yet and she disappeared from his sight, for good this time. Orpheus met his end at the hands of Thracian Maenads, who ripped him to shreds for not honouring Dionysus. His lyre was carried to heaven by the Muses, who also collected the fragments of his body and buried them below Mount Olympus. Lyra constellation was often depicted as a vulture or an eagle carrying Orpheus’ lyre in its wings or beak, and called Aquila Cadens or Vultur Cadens, which means ‘the falling eagle’ or ‘falling vulture.’ In Wales, the constellation is known as King Arthur’s Harp (Talyn Arthur) or King David’s Harp.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Mensa',
                 'image_name' => 'mensa',
                 'alias' => 'The Table Mountain',
-                'details' => "",
-                'myth' => "",
+                'details' => "Mensa is the 75th constellation in size, occupying an area of only 153 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +4° and -90°. The neighboring constellations are Chamaeleon, Dorado, Hydrus, Octans and Volans. Mensa belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Microscopium, Norma, Octans, Pictor, Reticulum, Sculptor, and Telescopium.",
+                'myth' => "Mensa is not associated with any myths. Lacaille created it out of dim southern stars to commemorate Table Mountain near Cape Town in South Africa, from where he observed and catalogued southern stars in 1751 and 1752. Mensa contains a part of the Large Magellanic Cloud, which makes the constellation appear as if it were capped by a white cloud, similar to the way clouds cap the Table Mountain. Lacaille originally named the constellation Montagne de la Table on his planisphere from 1756, but later Latinized it to Mons Mensae in the second edition in 1763. The English astronomer John Herschel suggested shortening the constellation’s name to Mensa, and in 1845, Francis Baily adopted this suggestion in his British Association Catalogue.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Microscopium',
                 'image_name' => 'microscopium',
                 'alias' => 'The Microscope',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Microscopium is the 66th constellation in size, occupying an area of 210 square degrees. It is located in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +45° and -90°. The neighboring constellations are Capricornus, Grus, Indus, Piscis Austrinus, Sagittarius and Telescopium. Microscopium belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Norma, Octans, Pictor, Reticulum, Sculptor and Telescopium.",
+                'myth' => "Microscopium constellation was created by the French astronomer Nicolas Louis de Lacaille in 1751-1752. Lacaille named it after an early type of compound microscope, one that used more than one lens and was widely used in the 18th century. He described the constellation as depicting ‘a tube above a square box.’ The official boundaries of the constellation as it is today were set by the Belgian astronomer Eugène Delporte in 1930.",
+                'hemisphere' => 'Southern',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Monoceros',
                 'image_name' => 'monoceros',
                 'alias' => 'The Unicorn',
-                'details' => "",
-                'myth' => "",
+                'details' => "Monoceros is the 35th constellation in size, occupying an area of 482 square degrees. It is one of the 15 equatorial constellations. It is located in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +75° and -90°. The neighboring constellations are Canis Major, Canis Minor, Gemini, Hydra, Lepus, Orion and Puppis. Monoceros belongs to the Orion family of constellations, along with Canis Major, Canis Minor, Lepus and Orion.",
+                'myth' => "Monoceros first appeared on a globe by the Dutch cartographer and clergyman Petrus Plancius in 1612 as Monoceros Unicornis. The constellation was created to fill the area between two large constellations, Orion and Hydra, where there weren’t any constellations introduced in Greek times. Plancius introduced the unicorn figure because the mythical animal appears several times in the Old Testament of the Bible. The constellation is not associated with any particular myth. The German astronomer Jakob Bartsch included the constellation in his 1624 star chart as Unicornus.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Musca',
                 'image_name' => 'musca',
                 'alias' => 'The Fly',
-                'details' => "",
-                'myth' => "",
+                'details' => "Musca is the 77th constellation in size, occupying an area of 138 square degrees. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +10° and -90°. The neighboring constellations are Apus, Carina, Centaurus, Chamaeleon, Circinus and Crux. Musca belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Grus, Hydrus, Indus, Pavo, Phoenix, Tucana and Volans.",
+                'myth' => "Musca was one of the 12 constellations introduced by the Dutch navigators Keyser and de Houtman during their expeditions to the East Indies in the late 16th century. In de Houtman’s catalogue of 1603, the constellation is called De Vlieghe, which is Dutch for ‘the fly.’ The Dutch cartographer Petrus Plancius was the first to include the constellation on his globe of 1598, but left it unnamed. When Johann Bayer included it is his star atlas Uranometria, he called the constellation Apis, the Bee, and this name was widely used for about two centuries. The constellation first appeared under the name Musca in 1602, on a globe by the Dutch cartographer Willem Janszoon Blaeu. Plancius did not use any names for the constellation until 1612, when he named it Muia on his globe, which is Greek for ‘the fly.’ For a while, the constellation was known as the Southern Fly, Musca Australis, as there was a constellation called Musca Borealis, the Northern Fly, at the time, located in the north of what is today Aries constellation. The French astronomer Nicolas Louis de Lacaille was the one who named the constellation Musca Australis. The name was later shortened to simply Musca.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Norma',
                 'image_name' => 'norma',
                 'alias' => "The Carpenter's Square",
-                'details' => "",
-                'myth' => "",
+                'details' => "Norma is the 74th constellation in size, occupying an area of 165 square degrees. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +30° and -90°. The neighboring constellations are Ara, Circinus, Lupus, Scorpius and Triangulum Australe. Norma belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Octans, Pictor, Reticulum, Sculptor, and Telescopium.",
+                'myth' => "Norma constellation is not associated with any myths. It was introduced by Nicolas Louis de Lacaille in the 1750s, during his stay at the Cape of Good Hope in South Africa, where he was mapping the southern skies. Lacaille created the constellation out of faint stars between Lupus and Ara and originally named it l’Equerre et la Regle, referring to a draughtsman’s set-square and rule. The constellation represents a carpenter’s square, used by carpenters on exploratory vessels. The constellation’s name was Latinized to Norma et Regula, and eventually shortened to Norma. As the constellation boundaries have changed since the 18th century, Norma no longer has stars designated Alpha or Beta. The stars that were Alpha and Beta Normae in Lacaille’s time now belong to Scorpius constellation and are designated N and H Scorpii.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Octans',
                 'image_name' => 'octans',
                 'alias' => 'The Octant',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Octans is the 50th constellation in size, occupying an area of 291 square degrees. It lies in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +0° and -90°. The neighboring constellations are Apus, Chamaeleon, Hydrus, Indus, Mensa, Pavo and Tucana. Octans belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Norma, Pictor, Reticulum, Sculptor, and Telescopium.",
+                'myth' => "Octans was created by Nicolas Louis de Lacaille in 1752. There are no myths associated with the constellation, in part because it is located too far south. Lacaille created it out of dim circumpolar stars and originally named it l’Octans de Reflexion, or ‘the reflecting octant,’ which was the precursor to the modern sextant. The constellation was also known as Octans Hadleianus, after John Hadley, the English mathematician who invented the octant in 1730. When he created the constellation, Lacaille moved several stars from the neighbouring constellation Hydrus.",
+                'hemisphere' => 'Southern',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Ophiuchus',
                 'image_name' => 'ophiuchus',
                 'alias' => 'The Serpent Bearer',
-                'details' => "",
-                'myth' => "",
+                'details' => "Ophiuchus is the 11th largest constellation in the sky, occupying an area of 948 square degrees. It is one of the 15 equatorial constellations. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +80° and -80°. The neighboring constellations are Aquila, Hercules, Libra, Sagittarius, Scorpius and Serpens. Ophiuchus belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Sagitta, Scutum, Sextans, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "Ophiuchus is most frequently associated with the Greek mythical figure of Asclepius, son of the god Apollo, who was said to be able to bring people back to life with his healing powers. Asclepius learned how to do this after seeing one snake bringing healing herbs to another. This happened when Glaucus, the son of King Minos of Crete, fell into a jar of honey and drowned. Asclepius saw a snake slithering toward his body and did away with it. Then another snake came along and placed a herb on the first one, which miraculously brought the first snake back to life. Asclepius saw this and took the same herb and placed it on Glaucus’ body. The king’s son was miraculously resurrected. Asclepius was raised by Chiron, the wise centaur, associated with Centaurus constellation, who taught him the art of healing. In one of the myths, Asclepius was given the blood of the Gorgon Medusa by the goddess Athene. The Gorgon’s blood from the veins on her left side was poison, but the blood from the veins on the right side was said to be able to bring people back to life. In another tale, Asclepius resurrected Theseus’ son Hippolytus after the king’s son was thrown from his chariot. In this version of the myth, Hippolytus is associated with Auriga constellation, the charioteer. The healer was struck down by Zeus because the god was worried that the human race would become immortal with Asclepius around to heal them. Zeus’ brother Hades, the god of the Underworld, was concerned that the flow of souls into his domain would dry up as a result of Asclepius’ healing ability. Hades complained about this to Zeus and the thunder god struck the healer down with a bolt of lightning. Zeus later placed Asclepius’ image in the sky to honour his gift and good deeds. The healer became the constellation Ophiuchus, the Serpent Bearer. Ophiuchus constellation may be descended from an ancient Babylonian constellation that represented the serpent-god Nirah, who was sometimes depicted as a hybrid being, with a human head and torso, and serpents for legs. This theory, however, has not been confirmed by sufficient evidence.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Orion',
                 'image_name' => 'orion',
                 'alias' => 'The Hunter',
-                'details' => "",
-                'myth' => "",
+                'details' => "Orion is the 26th constellation in size, occupying an area of 594 square degrees. It is one of the 15 equatorial constellations. It is located in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +85° and -75°. The neighboring constellations are Eridanus, Gemini, Lepus, Monoceros and Taurus. Orion belongs to the Orion family of constellations, along with Canis Major, Canis Minor, Lepus and Monoceros.",
+                'myth' => "In Greek mythology, the hunter Orion was the most handsome of men. He was the son of the sea god Poseidon and Euryale, the daughter of King Minos of Crete. In Homer’s Odyssey, Orion is described as exceptionally tall and armed with an unbreakable bronze club. In one myth, Orion fell in love with the Pleiades, the seven sisters, daughters of Atlas and Pleione. He started pursuing them and Zeus scooped them up and placed them in the sky. The Pleiades are represented by the famous star cluster of the same name, located in the constellation Taurus. Orion can still be seen chasing the sisters across the sky at night. In another story, Orion fell in love with Merope, the beautiful daughter of King Oenopion, who didn’t return his affections. One night, he had too much to drink and tried to force himself on her. The king, enraged, put out Orion’s eyes and banished him from his land, the island of Chios. Hephaestus felt sorry for the blind, wandering Orion and offered one of his assistants to guide the hunter and act as his eyes. Orion eventually encountered an oracle that told him if he went east toward the sunrise, his sight would be restored. Orion did so and his eyes were miraculously healed. The constellation Orion has its origins in Sumerian mythology, specifically in the myth of Gilgamesh. Sumerians associated it with the story of their hero fighting the bull of heaven, represented by Taurus. They called Orion URU AN-NA, meaning ‘the light of heaven.’ Their name for the constellation Taurus was GUD AN-NA, or ‘the bull of heaven.’ Most myths about Orion’s end involve a scorpion, but the stories differ from one mythographer to another. In one tale, Orion boasted to the goddess Artemis and her mother Leto that he could defeat any beast on earth. The Earth Goddess heard him and sent a scorpion, which stung the giant. In another story, he tried to force himself on Artemis and she was the one who sent the scorpion. In yet another account, Orion was stung while trying to save Leto from the scorpion. All myths of Orion’s passing share the same outcome: Orion and the scorpion were placed on opposite sides of the sky, so that when the constellation Scorpius rises in the sky, Orion sets below the horizon in the west, fleeing from the scorpion. However, there is also a myth that does not involve a scorpion: Artemis, the goddess of hunting, fell in love with the hunter and, to stop her from giving up her vows of chastity, her brother Apollo dared her to hit a small target in the distance with her bow and arrow. Not knowing that the target was Orion, who was enjoying a swim, she hit it on the first try. Devastated by his passing, she placed Orion among the stars.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Pavo',
                 'image_name' => 'pavo',
                 'alias' => 'The Peacock',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Pavo is the 44th constellation in size, occupying an area of 378 square degrees. It is located in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +30° and -90°. The neighboring constellations are Apus, Ara, Indus, Octans and Telescopium. Pavo belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Grus, Hydrus, Indus, Musca, Phoenix, Tucana and Volans.",
+                'myth' => "The constellation is believed to represent the Java green peacock which the Dutch navigators de Houtman and Keyser probably encountered on their journey to the East Indies. In Greek mythology, the peacock was Hera’s sacred bird. The goddess drove through the air in a chariot drawn by peacocks. There is a myth specifically associated with the peacock’s tail and how it came to have eyes on it. When Zeus fell in love with Io, a nymph and priestess of Hera in Argos, he turned her into a cow to hide her from Hera when the goddess almost caught the two. Hera was suspicious nonetheless and tasked the giant Argus with keeping an eye on the heifer. Argus had a hundred eyes, which made him an excellent guard. (He is also sometimes known as Argus Panoptes, the epithet Panoptes meaning ‘all seeing.’) Argus tied Io to an olive tree in Nemea, and Zeus dispatched Hermes to free the nymph from the giant. Hermes obliged and came to Earth disguised as a shepherd. He spent a day telling Argus stories and playing reed pipes until all of Argus’ eyes became tired. When the giant fell asleep, Hermes hit him with a stone. To honour Argus’ memory, Hera placed his eyes on her sacred bird’s tail.",
+                'hemisphere' => 'Southern',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Pegasus',
                 'image_name' => 'pegasus',
                 'alias' => 'The Winged Horse',
-                'details' => "",
-                'myth' => "",
+                'details' => "Pegasus is the seventh largest constellation in the sky, occupying an area of 1121 square degrees. It is located in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -60°. The neighboring constellations are Andromeda, Aquarius, Cygnus, Delphinus, Equuleus, Lacerta, Pisces and Vulpecula. Pegasus belongs to the Perseus family of constellations, along with Andromeda, Auriga, Cassiopeia, Cepheus, Cetus, Lacerta, Perseus, and Triangulum.",
+                'myth' => "In Greek mythology, Pegasus is a white winged horse that sprang from the neck of the Gorgon Medusa when Perseus beheaded her. Medusa was a beautiful young woman before she was turned into a monster by the goddess Athena after being caught being defiled by the sea god Poseidon in the goddess’ temple. Athena turned Medusa’s hair into snakes and made her face so ugly that anyone who looked at her immediately turned to stone. Perseus was sent to defeat Medusa by King Polydectes of Seriphus, who was the brother of Dictys, the man who took Perseus and his mother Danaë in and raised Perseus as his own son. Polydectes wanted Danaë for himself and Perseus stood in his way because he defended his mother from the king’s advances. He did not expect the hero to come back from his mission alive. When Perseus defeated Medusa, Pegasus and the warrior Chrysaor sprang from her neck, both of them offspring of Poseidon. The name Pegasus is derived from the Greek pegai which means ‘springs’ or ‘waters,’ and Chrysaor’s name means ‘the golden sword.’ When he was born, Pegasus flew away to Mount Helicon in Boeotia, where the Muses lived, and he befriended them. He created a spring that was named Hippocrene by striking the ground with his hoof. The name Hippocrene means ‘the horse’s fountain.’ It was said that those who drank from the spring were blessed with the gift to write poetry. The most famous myth involving Pegasus is the one of Bellerophon, the hero who was sent by King Iobates of Lycia to defeat the Chimaera, a monster that breathed fire and was devastating the king’s land. Bellerophon found Pegasus and tamed him using a golden bridle given to him by the goddess Athena. Then he swooped down on the Chimaera from the sky and defeated the monster with his lance and arrows. After this and several other heroic deeds for King Iobates, Bellerophon let the successes get to his head. Riding Pegasus, he tried to fly to Olympus and join the gods. He didn’t succeed. He fell off the horse and back to Earth. Pegasus did however make it to Olympus. There, Zeus used the horse to carry his thunder and lightning, and eventually placed him among the constellations. The constellation Pegasus is depicted with only the top half of the horse, and it is nevertheless one of the largest constellations in the sky, seventh in size.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Perseus',
                 'image_name' => 'perseus',
                 'alias' => 'The Hero',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Northern',
-                'season' => ''
+                'details' => "Perseus is the 24th largest constellation in the sky, occupying an area of 615 square degrees. It is located in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -35°. The neighboring constellations are Andromeda, Aries, Auriga, Camelopardalis, Cassiopeia, Taurus and Triangulum. Perseus belongs to the Perseus family of constellations, along with Andromeda, Auriga, Cassiopeia, Cepheus, Cetus, Lacerta, Pegasus, and Triangulum.",
+                'myth' => "Perseus was a demi-god, the son of Zeus and a mortal named Danae. Perseus killed the famed monster Medusa, the hideous gorgon with snakes for hair who turned anyone with the misfortune of looking into her eyes into stone. Cepheus and Cassiopeia were king and queen, and had a beautiful daughter, Andromeda. She was so beautiful that her mother claimed her to be more beautiful than the sea nymphs of Poseidon, god of the ocean. This outraged Poseidon, who had Andromeda chained to a rock to be eaten by the fearsome sea monster, Cetus. Perseus killed Cetus and saved the princess Andromeda, whom he then took to be his wife. Because he was so brave in fighting a fearsome monster to save the life of someone else, he was given a place in the stars forever.",
+                'hemisphere' => 'Northern (circumpolar)',
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Phoenix',
                 'image_name' => 'phoenix',
                 'alias' => 'The Phoenix',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => 'Southern',
-                'season' => ''
+                'details' => "Phoenix is the 37th constellation in size, occupying an area of 469 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +32° and -80°. The neighboring constellations are Eridanus, Grus, Fornax, Hydrus, Sculptor and Tucana. Phoenix belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Grus, Hydrus, Indus, Musca, Pavo, Tucana and Volans.",
+                'myth' => "The mythical bird phoenix is known as the sacred fire bird across many mythologies: Greek, Persian, Arabic, Egyptian, Roman, Turkish, Indian and Chinese among others. The phoenix was said to have resembled an eagle with purple, red and gold feathers, and a scarlet and gold tail. Ovid wrote in his Metamorphoses that the bird lived for 500 years. When it reached the end of its life span, the phoenix would build itself a nest at the top of a palm tree, using incense and cinnamon bark, then ignite the nest and meet its end in the fire. A new bird would be born from its father’s body and, according to legend, when the young phoenix was strong enough, it would take the nest and carry it to the temple of Hyperion, who was one of the 12 Titan deities and the lord of light. In another version of the tale, the young phoenix would embalm the ashes of the passed one in an egg made of myrrh and carry the egg to the Egyptian city Heliopolis. The name Heliopolis means 'sun city' in Greek.",
+                'hemisphere' => 'Southern (circumpolar)',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Pictor',
                 'image_name' => 'pictor',
                 'alias' => "The Painter's Easel",
-                'details' => "",
-                'myth' => "",
+                'details' => "Pictor is the 59th constellation in size, occupying an area of 247 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +26° and -90°. The neighboring constellations are Caelum, Carina, Columba, Dorado, Puppis and Volans. Pictor belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Norma, Octans, Reticulum, Sculptor, and Telescopium.",
+                'myth' => "Pictor constellation is not associated with any myths. It was introduced by Nicolas Louis de Lacaille in 1756 as le Chevalet et la Palette, which means 'the easel and palette.' In 1763, he named the constellation Equuleus Pictoris on his planisphere. The name was shortened to Pictor in 1845 by the English astronomer Francis Baily in his British Association Catalogue on the suggestion of the English astronomer and mathematician John Herschel.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Pisces',
                 'image_name' => 'pisces',
                 'alias' => 'The Fishes',
-                'details' => "",
-                'myth' => "",
+                'details' => "Pisces is the 14th constellation in size, occupying an area of 889 square degrees. It is one of the 15 equatorial constellations. It is located in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -65°. The neighboring constellations are Andromeda, Aquarius, Aries, Cetus, Pegasus and Triangulum. Pisces belongs to the zodiac family of constellations, along with Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpius, Sagittarius, Capricornus and Aquarius.",
+                'myth' => "Pisces constellation is of Babylonian origin. The Babylonians saw it as a pair of fish joined by a cord. The constellation is usually associated with the Roman myth of Venus and Cupid, who tied themselves with a rope and transformed into fish to escape the monster Typhon. The star Alpha Piscium, also known by the traditional name Alrescha (“the cord” in Arabic) marks the knot of the rope. The constellation is associated with a similar story in Greek mythology. After the Olympian gods had defeated the Titans and the Giants, Gaia, or Mother Earth, coupled with Tartarus, the region of the Underworld where Zeus held the Titans imprisoned, and they had Typhon, the scariest monster the world had ever seen. Typhon had a hundred dragon’s heads, with fire blazing from all his eyes. Gaia sent Typhon to defeat the gods. Pan was the first to see him coming. He alerted the other gods and then transformed himself into a goat-fish and jumped into the river Euphrates to escape the monster. The goat-fish is represented by the constellation Capricornus. The goddess Aphrodite and her son Eros called to the water nymphs for help and jumped into the river. In one version of the legend, two fishes came to the rescue and carried Aphrodite and Eros on their backs to safety. In another version, the mother and son were themselves transformed into fish.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Piscis Austrinus',
                 'image_name' => 'piscis_austrinus',
                 'alias' => 'The Southern Fish',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Piscis Austrinus is the 60th constellation in size, occupying an area of 245 square degrees. It is located in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +55° and -90°. The neighboring constellations are Aquarius, Capricornus, Grus, Microscopium and Sculptor. Piscis Austrinus belongs to the Heavenly Waters family of constellations, along with Carina, Columba, Delphinus, Equuleus, Eridanus, Puppis, Pyxis, and Vela.",
+                'myth' => "Piscis Austrinus is one of the 48 Greek constellations, listed by the astronomer Ptolemy in his Almagest in the 2nd century CE. It used to contain the stars that now belong to Grus constellation. The constellation has its origins in Babylonian culture, where it was known as the Fish, or MUL.KU. It was associated with the myth about the Syrian fertility goddess Atargatis, who fell into a lake near the river Euphrates in what is today northern Syria, and was rescued by a large fish. The goddess would later punish all those who ate fish, but her priests were allowed to eat it every day. In a different version of the story, Atargatis deliberately threw herself into the lake. In this version, she abandoned her daughter, did away with the father, and was turned into a mermaid in the lake. Her daughter was brought up by doves and grew up to be Semiramis, the Assyrian queen. The Greeks knew the constellation as the Great Fish and depicted it as swallowing the water poured by Aquarius, the water bearer. The two fish represented by Pisces constellation were said to be the offspring of the Great Fish. In Greek mythology, there is a similar tale associated with Pisces. In the tale, the goddess Aphrodite took the form of a fish to hide from the monster Typhon. She and her son Eros and leapt into the river Euphrates and begged the river nymphs for help. Two fish bore them up and the goddess later honoured them by transforming them into the constellation Pisces. Egyptians also associated the constellation with a fish, one that saved the life of the goddess Isis. To honour the fish, the goddess placed it into the sky as a constellation, and did the same with its offspring.",
+                'hemisphere' => 'Southern',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Puppis',
                 'image_name' => 'puppis',
                 'alias' => 'The Stern',
-                'details' => "",
-                'myth' => "",
+                'details' => "Puppis is the 20th constellation in size, occupying an area of 673 square degrees. It lies in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +40° and -90°. The neighboring constellations are Carina, Canis Major, Columba, Hydra, Monoceros, Pictor, Pyxis and Vela. Puppis belongs to the Heavenly Waters family of constellations, along with Carina, Columba, Delphinus, Equuleus, Eridanus, Piscis Austrinus, Pyxis, and Vela.",
+                'myth' => "Puppis is one of the three constellations that used to form the Greek constellation Argo Navis, which represented the ship on which Jason and the Argonauts sailed to get the Golden Fleece. The French astronomer Nicolas Louis de Lacaille divided the constellation into the three smaller ones – Carina, Puppis and Vela – in the 18th century. Puppis is the largest of the three. Neither Puppis nor Vela have stars designated Alpha and Beta, as these stars were allocated to Carina constellation.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Pyxis',
                 'image_name' => 'pyxis',
                 'alias' => 'The Compass',
-                'details' => "",
-                'myth' => "",
+                'details' => "Pyxis is the 65th constellation in size, occupying an area of 221 square degrees. It is located in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +50° and -90°. The neighboring constellations are Antlia, Hydra, Puppis and Vela. Pyxis belongs to the Heavenly Waters family of constellations, along with Carina, Columba, Delphinus, Equuleus, Eridanus, Piscis Austrinus, Puppis and Vela.",
+                'myth' => "The constellation Pyxis was created by the French astronomer Nicolas Louis de Lacaille in 1751-52 during his exploration of the southern skies. He named the constellation la Boussole and later Latinized the name to Pixis Nautica. The constellation appeared under this name in the second edition of Lacaille’s chart in 1763. The name was eventually shortened to Pyxis. The constellation represents the magnetic compass used by navigators and seamen and should not be confused with Circinus, which was named after a draftsman’s compass. Pyxis lies in the vicinity of the three constellations that were once known as Argo Navis, a single large constellation that represented the ship of Jason and the Argonauts. Lacaille was the one who divided Argo Navis into three smaller ones – Carina, Puppis and Vela – and this might be the reason why Pyxis is sometimes mentioned as the fourth constellation that was part of Argo Navis, even though it was not. The Greek astronomer Ptolemy had catalogued the stars from Alpha to Delta Pyxidis, but not as part of Argo Navis, but as stars located on or around the ship’s mast. In 1844, the English astronomer John Herschel suggested that the name Pyxis be replaced with Malus, the mast. This would have made the constellation a subdivision of Argo Navis if Herschel’s suggestion had been accepted, but it was not. The International Astronomical Union (IAU) eventually adopted Pyxis as one of the 88 modern constellations.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Reticulum',
                 'image_name' => 'reticulum',
                 'alias' => 'The Reticle',
-                'details' => "",
-                'myth' => "",
+                'details' => "Reticulum is one of the smallest constellations in the sky, 82nd in size, occupying an area of 114 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +23° and -90°. The neighboring constellations are Dorado, Horologium and Hydrus. Reticulum belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Norma, Octans, Pictor, Sculptor, and Telescopium.",
+                'myth' => "Reticulum constellation was created by Isaac Habrecht II, who included it on his celestial globe in 1621. Habrecht named the constellation Rhombus. In the 18th century, the French astronomer Nicolas Louis de Lacaille renamed it to le Réticule Rhomboide, or Reticulum, to commemorate the reticle in his telescope, which he used to measure star positions during his trip to the Cape of Good Hope in the early 1750s. The constellation was officially recognized by the International Astronomical Union in 1922.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Sagitta',
                 'image_name' => 'sagitta',
                 'alias' => 'The Arrow',
-                'details' => "",
-                'myth' => "",
+                'details' => "Sagitta is the 86th constellation in size, occupying an area of only 80 square degrees. The only constellations smaller than Sagitta are Equuleus and Crux. Sagitta lies in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -70°, from every location on Earth except the Antarctic Circle. The neighboring constellations are Aquila, Delphinus, Hercules and Vulpecula. Sagitta belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Scutum, Sextans, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "Sagitta constellation is usually associated with the arrow that Heracles used to strike down the eagle that Zeus sent to gnaw Prometheus’ liver. In mythology, Prometheus moulded men and women out of clay in gods’ likeness, and gave them fire that he had stolen from the gods. Zeus decided to punish him for this, and chained him to Mount Caucasus, where the eagle perpetually gnawed his liver, which would always grow again at night. The eagle is represented by the neighbouring constellation Aquila. Heracles found Prometheus during one of his journeys, struck the eagle down with an arrow, and freed Prometheus. In a different myth, Sagitta is identified as the arrow Apollo used on the Cyclopes because they had made the thunderbolts of Zeus that struck down Apollo’s son Asclepius, the famous healer, who is represented by Ophiuchus constellation. In yet another story, Sagitta is associated with the arrow of Eros which made Zeus fall in love with Ganymede, the shepherd represented by Aquarius constellation. In this story, Zeus’ eagle guards the arrow in the sky. The Greeks knew the constellation as Oistos, and the Romans later named it Sagitta.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Sagittarius',
                 'image_name' => 'sagittarius',
                 'alias' => 'The Archer',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Sagittarius is the 15th largest constellation in the sky. It occupies an area of 867 square degrees. It is located in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +55° and -90°. The neighboring constellations are Aquila, Capricornus, Corona Australis, Indus, Microscopium, Ophiuchus, Scutum, Scorpius, Serpens Cauda and Telescopium. Sagittarius belongs to the Zodiac family of constellations, along with Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpius, Capricornus, Aquarius and Pisces.",
+                'myth' => "In Greek mythology, Sagittarius represents a centaur, a half human, half horse creature with the torso of a man and the body and four legs of a horse. The centaur is depicted as aiming an arrow toward the heart of the neighbouring constellation Scorpio, represented by the red supergiant star Antares. Sometimes Sagittarius is wrongly identified as the centaur Chiron, represented by the constellation Centaurus. Sagittarius constellation has its roots in Sumerian mythology. Eratosthenes associated it with Crotus, a mythical creature with two feet and a satyr’s tail, who was the nurse to the nine Muses, daughters of Zeus. Eratosthenes argued that the constellation really represented a satyr and not a centaur. According to the Roman author Hyginus, Crotus was the son of Pan and the archer the constellation was named after. Crotus invented archery and lived on Mount Helicon. Because he was close to the Muses, they were the ones who asked Zeus to place him in the sky. In Babylonian mythology, Sagittarius is associated with the centaur-like god Nergal, and depicted with two heads – one human and one panther – and also wings, and the stinger of a scorpion positioned above a horse’s tail.",
+                'hemisphere' => 'Southern',
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Scorpius',
                 'image_name' => 'scorpius',
                 'alias' => 'The Scorpion',
-                'details' => "",
-                'myth' => "",
+                'details' => "Scorpius is the 33rd constellation in size, occupying an area of 497 square degrees. It lies in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +40° and -90°. The neighboring constellations are Ara, Corona Australis, Libra, Lupus, Norma, Ophiuchus and Sagittarius. Scorpius belongs to the Zodiac family of constellations, along with Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Sagittarius, Capricornus, Aquarius and Pisces.",
+                'myth' => "In Greek mythology, the constellation Scorpius was identified with the scorpion that stung Orion, the mythical hunter. The two constellations lie opposite each other in the sky, and Orion is said to be fleeing from the scorpion as it sets just as Scorpius rises. In one version of the myth, Orion tried to ravish the goddess Artemis and she sent the scorpion to do away with him. In another version, it was the Earth that sent the scorpion after Orion had boasted that he could defeat any wild beast. In ancient Greek times, the constellation Scorpius was significantly larger and comprised of two halves, one with the scorpion’s body and the sting, and one containing the claws. The latter was called Chelae, or 'claws.' In the first century BC, the Romans turned the claws into a separate constellation, Libra, the Scales.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Sculptor',
                 'image_name' => 'sculptor',
                 'alias' => 'The Sculptor',
-                'details' => "",
-                'myth' => "",
+                'details' => "Sculptor is the 36th constellation in size, occupying an area of 475 square degrees. It is located in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +50° and -90°. The neighboring constellations are Aquarius, Cetus, Fornax, Grus, Phoenix and Piscis Austrinus. Sculptor belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Norma, Octans, Pictor, Reticulum and Telescopium.",
+                'myth' => "Sculptor constellation is not associated with any myths. It is one of the southern constellations introduced by Nicolas Louis de Lacaille in 1751-1752. On his planisphere of 1756, Lacaille named the constellation l’Atelier du Sculpteur, which is French for 'the sculptor’s studio.' The constellation was depicted as a carved head lying on a tripod table, next to a sculptor’s mallet and two chisels. The name was Latinized to Apparatus Sculptoris on Lacaille’s 1763 planisphere and in 1844 the English astronomer John Herschel proposed shortening the name to Sculptor. His suggestion was adopted by Francis Baily in his British Association Catalogue of 1845, and the constellation has been known as Sculptor ever since.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Scutum',
                 'image_name' => 'scutum',
                 'alias' => 'The Shield',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Scutum is the 84th constellation in size, occupying an area of only 109 square degrees. It is located in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +80° and -90°. The neighboring constellations are Aquila, Sagittarius and Serpens Cauda. Scutum belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Sextans, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "Scutum constellation is not associated with any myths. It is the only constellation associated with a non-classical historical figure, the Polish King John III Sobieski. The Polish astronomer Johannes Hevelius, who created the constellation in 1684, named it Scutum Sobiescianum, or Shield of Sobieski, to commemorate the king’s victory in the Battle of Vienna in 1683. King John III Sobieski also helped Hevelius rebuild his observatory after a fire in 1679. Scutum constellation first appeared charted in the scientific journal Acta Eruditorum in August 1684. Hevelius cited Robur Carolinum, a constellation introduced by the English astronomer Sir Edmond Halley in 1679 to honour King Charles II of England. Halley’s constellation was located between Crux and Carina and its name referred to the oak where King Charles II hid from Oliver Cromwell’s troops after the Battle of Worcester, the last battle of the English Civil War in 1651. Robur Carolinum later fell into disuse. The name Scutum Sobiescianum was eventually shortened to Scutum, the shield.",
+                'hemisphere' => 'Southern',
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Serpens',
                 'image_name' => 'serpens',
                 'alias' => 'The Serpent',
-                'details' => "",
-                'myth' => "",
+                'details' => "Serpens is the 23rd constellation in size, occupying an area of 637 square degrees. It is one of the 15 equatorial constellations. Serpens Caput, the western part of the constellation, representing the serpent’s head, is located in the third quadrant of the northern hemisphere (NQ3). Serpens Cauda, the eastern part, representing the serpent’s tail, is found in the third quadrant of the southern hemisphere (SQ3). The constellation can be seen at latitudes between +80° and -80°. The constellations bordering Serpens Caput are Boötes, Corona Borealis, Hercules, Libra, Ophiuchus and Virgo. The constellations bordering Serpens Cauda are Aquila, Ophiuchus, Sagittarius and Scutum. Serpens belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Triangulum Australe and Vulpecula.",
+                'myth' => "In Greek mythology, Serpens constellation represents a giant snake held by the healer Asclepius, represented by Ophiuchus constellation. Asclepius is usually depicted holding the top half of the snake in his left hand and the tail in his right hand. Asclepius was the son of the god Apollo who was said to be able to bring people back to life with his healing powers. In one of the stories, he did away with a snake and saw it be brought back to life by a herb that another snake placed on it. It was said that Asclepius later used the same technique. The brightest star in the constellation, Unukalhai (Alpha Serpentis), represents the serpent’s neck, and Alya (Theta Serpentis) marks the tip of the snake’s tail. Serpens constellation dates back to Babylonian times. The Babylonians had two snake constellations. One represented a hybrid of a dragon, lion and bird and roughly corresponded to the constellation we know as Hydra, the water snake. The other Babylonian constellation, called Bašmu, was depicted as a horned serpent, and loosely corresponded to the constellation Ophis, created by the Greek astronomer Eudoxus of Cnidus in the 4th century BC, on which Ptolemy’s Serpens constellation was based.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Sextans',
                 'image_name' => 'sextans',
                 'alias' => 'The Sextant',
-                'details' => "",
-                'myth' => "",
+                'details' => "Sextans is the 47th constellation in size, occupying an area of 314 square degrees. It is one of the 15 equatorial constellations. It is located in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +80° and -90°. The neighboring constellations are Crater, Hydra and Leo. Sextans belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Serpens, Triangulum Australe and Vulpecula.",
+                'myth' => "Sextans constellation is not associated with any myths. It was introduced by the Polish astronomer Johannes Hevelius in 1687. Hevelius originally named the constellation Sextans Uraniae after the instrument he had used to measure star positions until it was destroyed in a fire at his observatory in 1679. Even though telescopes were available to him, Hevelius preferred to use the sextant for sightings, and continued to do so throughout his life.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Taurus',
                 'image_name' => 'taurus',
                 'alias' => 'The Bull',
-                'details' => "",
-                'myth' => "",
+                'details' => "Taurus is the 17th largest constellation in the sky, occupying an area of 797 square degrees. It is one of the 15 equatorial constellations. It is located in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -65°. The neighboring constellations are Aries, Auriga, Cetus, Eridanus, Gemini, Orion and Perseus. Taurus belongs to the zodiac family of constellations, along with Aries, Gemini, Cancer, Leo, Virgo, Libra, Scorpius, Sagittarius, Capricornus and Pisces.",
+                'myth' => "Taurus constellation has been known since at least the Early Bronze Age, when it marked the Sun’s location during the spring equinox. It has been associated with the bull in many cultures and mythologies: Greek and Egyptian among other, and even going back to Ancient Babylon. Depictions of Taurus and the Pleiades star cluster have even been found in a cave painting at Lascaux, dating back to 15,000 BC. Both the constellation and the Pleiades have been known in many indigenous cultures and referred to as the bull and the seven sisters, which indicates a common origin for the names. In Greek mythology, Taurus is usually associated with Zeus, who adopted the shape of a bull in order to seduce and abduct Europa, the beautiful daughter of the Phoenician King Agenor. Zeus mingled with the king’s herd and, being the most handsome bull there, he got Europa’s attention. The princess admired the bull and, when she sat on his back, he rose and headed for the sea. Zeus carried Europa all the way to the island of Crete, where he revealed his true identity and lavished the princess with presents. The two had three sons together, including Minos, who grew up to be the famous king of Crete, who built the palace at Knossos where bull games were held and who also sacrificed seven young boys and girls to the Minotaur each year. Zeus later commemorated the bull by placing it among the stars. An alternative interpretation associates Taurus with the nymph Io, whose line Europa was descended from, who was also seduced by Zeus and then transformed into a heifer when the two were nearly caught by Hera. Babylonian astronomers called the constellation MUL.APIN, or 'The Heavenly Bull.' In the Epic of Gilgamesh, one of the earliest literary works from Mesopotamia, Gilgamesh faces the Bull of Heaven sent by the goddess Ishtar to defeat the hero after he had rejected her advances. Gilgamesh is sometimes associated with the nearby Orion, another ancient constellation, and the two constellations are depicted as Gilgamesh and the bull in combat.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Telescopium',
                 'image_name' => 'telescopium',
                 'alias' => 'The Telescope',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Telescopium is the 57th constellation in size, occupying an area of 252 square degrees. It is located in the fourth quadrant of the southern hemisphere (SQ4) and can be seen at latitudes between +40° and -90°. The neighboring constellations are Ara, Corona Australis, Indus, Microscopium, Pavo and Sagittarius. Telescopium belongs to the Lacaille family of constellations, along with Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Norma, Octans, Pictor, Reticulum and Sculptor.",
+                'myth' => "Telescopium is not associated with any myths. The constellation was introduced by the French astronomer Nicolas Louis de Lacaille, who mapped the southern skies from the Cape of Good Hope in South Africa in 1751-1752. It represents an aerial telescope, a type of refractor that was used by J.D. Cassini at Paris Observatory. As defined by Lacaille, the constellation originally extended to the north between Sagittarius and Scorpius, but what used to represent the top of the telescope’s tube and mounting was cut off later. The official boundaries of the constellation were set by the Belgian astronomer Eugène Delporte in 1930. Today, Telescopium takes up a region of the sky south of the constellations Sagittarius and Corona Australis. The star that was placed in the pulley at the top of the mast by Lacaille and designated Beta Telescopii became Eta Sagittarii and the star that used to be Gamma Telescopii and was positioned in the upper part of the telescope’s tube, became G Scorpii in Scorpius constellation. The former Theta Telescopii, which used to mark the objective lens on the refractor, was moved to Ophiuchus as designated 45 Ophiuchi. The constellation was also sometimes known as Tubus Astronomicus, but this name is long obsolete.",
+                'hemisphere' => 'Southern',
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Triangulum',
                 'image_name' => 'triangulum',
                 'alias' => 'The Triangle',
-                'details' => "",
-                'myth' => "",
+                'details' => "Triangulum is the 78th constellation in size, occupying an area of 132 square degrees. It lies in the first quadrant of the northern hemisphere (NQ1) and can be seen at latitudes between +90° and -60°. The neighboring constellations are Andromeda, Aries, Perseus and Pisces. Triangulum belongs to the Perseus family of constellations, along with Andromeda, Auriga, Cassiopeia, Cepheus, Cetus, Lacerta, Pegasus and Perseus.",
+                'myth' => "The Greeks knew the constellation as Deltoton, named for its shape, which resembled the capital Greek letter delta. Eratosthenes said that the constellation represented the delta of the river Nile, and Hyginus wrote that some people saw it as the island of Sicily. Sicilia was one of the early names for the constellation because Ceres, who was the patron goddess of the island, was said to have begged Jupiter to place the island in the sky. The Babylonians saw Triangulum and the star Gamma Andromedae in Andromeda constellation as a constellation called MUL.Apin, or the Plough. The Polish astronomer Johannes Hevelius introduced a smaller triangle, Triangulum Minus, in 1687, formed by three stars located near Triangulum, but the division soon fell into disuse.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Winter'
             ],
             [
                 'name' => 'Triangulum Australe',
                 'image_name' => 'triangulum_australe',
                 'alias' => 'The Southern Triangle',
-                'details' => "",
-                'myth' => "",
+                'details' => "Triangulum Australe is the 83rd constellation in size, occupying an area of 110 square degrees. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +25° and -90°. The neighboring constellations are Apus, Ara, Circinus and Norma. Triangulum Australe belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens and Vulpecula.",
+                'myth' => "Triangulum Australe is not associated with any myths. It is the smallest of the 12 constellations created by the Dutch navigators Frederick de Houtman and Pieter Dirkszoon Keyser in the late 16th century. The first depiction of the constellation appeared in 1589 on a celestial globe by the Flemish cartographer and astronomer Petrus Plancius, where it was called Triangulus Antarcticus and incorrectly placed to the south of the constellation Argo Navis, which has since been split into three smaller constellations. Johann Bayer gave the constellation the name Triangulum Australe in his Uranometria in 1603. Nicolas Louis de Lacaille called the constellation 'le Triangle Austral ou le Niveau' on his planisphere in 1756 and described it as a surveyor’s level ('niveau'). It was one of the several constellations that represented surveying instruments. The other two were Circinus, the compass, and Norma, the set square. Johann Bode gave the constellation the alternative name, Libella (the level), in his Uranographia in 1801.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Tucana',
                 'image_name' => 'tucana',
                 'alias' => 'The Toucan',
-                'details' => "",
-                'myth' => "",
-                'hemisphere' => '',
-                'season' => ''
+                'details' => "Tucana is the 48th constellation in size, occupying an area of 295 square degrees. It lies in the first quadrant of the southern hemisphere (SQ1) and can be seen at latitudes between +25° and -90°. The neighboring constellations are Eridanus, Grus, Hydrus, Indus, Octans and Phoenix. Tucana belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Grus, Hydrus, Indus, Musca, Pavo, Phoenix and Volans.",
+                'myth' => "Tucana is not associated with any myths. The constellation’s name is Latin for 'the toucan,' a South American bird with a huge bill. The Dutch astronomer and cartographer Petrus Plancius first depicted the constellation on a celestial globe in 1598 and gave it the name Tucana. Johann Bayer kept the name in his atlas of 1603, but Frederick de Houtman called the constellation Den Indiaenschen Exster, op Indies Lang ghenaemt, which means 'the Indian magpie, named Lang in the Indies,' in his 1603 catalogue. Presumably, de Houtman was describing the hornbill, a different bird that is also native to the East Indies and Malaysia. In the end, the name Tucana won out.",
+                'hemisphere' => 'Southern (circumpolar)',
+                'season' => 'Fall'
             ],
             [
                 'name' => 'Ursa Major',
                 'image_name' => 'ursa_major',
                 'alias' => 'The Great Bear',
-                'details' => "",
-                'myth' => "",
+                'details' => "Ursa Major is the third largest constellation in the sky, occupying an area of 1280 square degrees. It is located in the second quadrant of the northern hemisphere (NQ2) and can be seen at latitudes between +90° and -30°. The neighboring constellations are Boötes, Camelopardalis, Canes Venatici, Coma Berenices, Draco, Leo, Leo Minor and Lynx. Ursa Major belongs to the Ursa Major family of constellations, along with Boötes, Camelopardalis, Canes Venatici, Coma Berenices, Corona Borealis, Draco, Leo Minor, Lynx, and Ursa Minor.",
+                'myth' => "Ursa Major is a well-known, significant constellation in many cultures. It is one of the oldest constellations in the sky, with a history dating back to ancient times. The constellation is referenced in Homer and the Bible. A great number of tales and legends across the globe associate Ursa Major with a bear. Ancient Greeks associated the constellation with the myth of Callisto, the beautiful nymph who had sworn a vow of chastity to the goddess Artemis. Zeus saw the nymph one day and fell in love. The two had a son, and named him Arcas. Artemis had already banished Callisto when she had learned about the nymph’s pregnancy and broken vow. However, it was Zeus’ jealous wife Hera, who was not amused by her husband’s philandering, who would do even more damage. Angered by Zeus’ betrayal, she turned Callisto into a bear. Callisto lived as a bear for the next 15 years, roaming the forest and always running and hiding from hunters. One day, her son Arcas was walking in the forest and the two came face to face. At the sight of the bear, Arcas quickly drew his spear, scared. Seeing the scene from Olympus, Zeus intervened to prevent a tragedy. He sent a whirlwind that carried both Callisto and Arcas into the heavens, where he turned Arcas into the constellation Boötes, the Herdsman, and Callisto into Ursa Major. (In another version, Arcas becomes the constellation Ursa Minor.) This only further infuriated Hera and she persuaded her foster parents Oceanus and Tethys never to let the bear bathe in the northern waters. This, according to the legend, is why Ursa Major never sets below the horizon in mid-northern latitudes. In a different version of the tale, it is not Hera but Artemis who transforms Callisto into a bear. Artemis does this to punish the nymph for breaking her vow of chastity to the goddess. Many years later, both Callisto and Arcas are captured in the forest and taken to King Lycaon as a gift. The mother and son take refuge in the temple of Zeus, and the god intervenes and saves them, placing them both in the sky. There is an entirely different Greek myth associated with Ursa Major, the one about Adrasteia. Adrasteia was one of the nymphs who took care of Zeus when he was very young. Zeus’ father Cronus was told by an oracle that one of his children would eventually overthrow him and, fearful of the prophecy, Cronus swallowed all his children until Zeus was born. Rhea, Zeus’ mother, smuggled their youngest child to the island of Crete, where the nymphs Adrasteia and Ida nursed young Zeus for a year. In this version of the myth, Ida is associated with the constellation Ursa Minor. Amaltheia, the goat that nursed Zeus, was placed in the sky as the bright star Capella in the constellation Auriga. The prophecy eventually came true; Zeus overthrew Cronus and freed his brothers Hades and Poseidon and sisters Demeter, Hera and Hestia.",
                 'hemisphere' => 'Northern (circumpolar)',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Ursa Minor',
                 'image_name' => 'ursa_major',
                 'alias' => 'The Little Bear',
-                'details' => "",
-                'myth' => "",
+                'details' => "Ursa Minor is the 56th constellation in size, occupying an area of 256 square degrees. It is located in the third quadrant of the northern hemisphere (NQ3) and can be seen at latitudes between +90° and -10°. The neighboring constellations are Camelopardalis, Cepheus and Draco. Ursa Minor belongs to the Ursa Major family of constellations, along with Coma Berenices, Boötes, Camelopardalis, Canes Venatici, Corona Borealis, Draco, Leo Minor, Lynx, and Ursa Major.",
+                'myth' => "Ursa Minor is usually associated with two different myths. In one, the constellation represents Ida, the nymph who took care of Zeus on the island of Crete when he was small, along with Adrasteia, the nymph represented by the larger constellation Ursa Major. Zeus’ mother Rhea hid Zeus on the island when he was very young to protect him from his father Cronus. Cronus, fearful of an old prophecy that said that one of his children would overthrow him, swallowed five of his children after they were born. When Zeus was born, Rhea tricked Cronus into swallowing a stone instead, and Zeus eventually fulfilled the prophecy. He freed his brothers Poseidon and Hades and sisters Hera, Hestia and Demeter, and became the supreme god of the Olympians. In a different myth, the constellation represents Arcas, son of Zeus and the nymph Callisto. Callisto had sworn a vow of chastity to Artemis, but was later unable to resist Zeus’ advances and the two had a child, Arcas. When Zeus’ wife Hera found out about the betrayal and the child, she turned the nymph into a bear. Callisto spent the next 15 years wandering in the woods and avoiding hunters. One day, she came face to face with her son. Scared, Arcas drew a spear, ready to do away with the bear. Luckily, Zeus saw the scene and intervened before it was too late. He sent a whirlwind that scooped the mother and son up to the heavens, where Callisto became Ursa Major and Arcas, Ursa Minor. Arcas, however, is more frequently associated with the constellation Boötes, the herdsman. In a slightly different version of the myth, it is the goddess Artemis who turns Callisto into a bear for breaking her chastity vow. In an older myth, the seven stars that form the Little Dipper were said to represent the Hesperides, seven daughters of Atlas, who tended to Hera’s orchard (Garden of the Hesperides) where a tree of golden, immortality-giving apples grew.",
                 'hemisphere' => 'Northern (circumpolar)',
-                'season' => ''
+                'season' => 'Summer'
             ],
             [
                 'name' => 'Vela',
                 'image_name' => 'vela',
                 'alias' => 'The Sails',
-                'details' => "",
-                'myth' => "",
+                'details' => "Vela is the 32nd constellation in size, occupying an area of 500 square degrees. It is located in the second quadrant of the southern hemisphere (SQ2) and can be seen at latitudes between +30° and -90°. The neighboring constellations are Antlia, Carina, Centaurus, Puppis and Pyxis. Vela belongs to the Heavenly Waters family of constellations, along with Carina, Columba, Delphinus, Equuleus, Eridanus, Piscis Austrinus, Puppis and Pyxis.",
+                'myth' => "Vela represents the sails of the Argo Navis, the ship on which Jason and the Argonauts sailed from Iolcus to get the Golden Fleece. The ship was named after Argus, the shipwright who built it. It was said that the ship was constructed with the help of the goddess Athena. Once the expedition was a success, Argo was consecrated to the sea god Poseidon and then turned into a constellation. Vela used to be part of the larger Greek constellation Argo Navis along with the constellations Puppis and Carina, which represented the stern and keel of the ship. Argo Navis was divided into the three smaller constellations in 1752 by the French astronomer Nicolas Louis de Lacaille. Lacaille only used one set of Greek letters for all three constellations, which is why Vela does not have any stars designated Alpha or Beta. The stars that were designated Alpha and Beta in the constellation Argo Navis now belong to Carina constellation.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Virgo',
                 'image_name' => 'virgo',
                 'alias' => 'The Maiden',
-                'details' => "",
-                'myth' => "",
+                'details' => "Virgo is the second largest constellation in the sky, occupying an area of 1294 square degrees. It is one of the 15 equatorial constellations. It is located in the third quadrant of the southern hemisphere (SQ3) and can be seen at latitudes between +80° and -80°. The neighboring constellations are Boötes, Coma Berenices, Corvus, Crater, Hydra, Leo, Libra and Serpens Caput. Virgo belongs to the Zodiac family of constellations, along with Aries, Taurus, Gemini, Cancer, Leo, Libra, Scorpius, Sagittarius, Capricornus, Aquarius and Pisces.",
+                'myth' => "The constellation Virgo is usually associated with the Greek goddess of justice, Dike. Dike was the daughter of Zeus and Greek Titaness Themis. Virgo is usually depicted with angel-like wings, with an ear of wheat in her left hand, marked by the bright star Spica. She is located next to Libra, the constellation representing the scales of justice. Dike was also sometimes known as Astraeia, daughter of Astraeus, considered father of the stars, and Eos, goddess of the dawn. In Greek mythology, Dike lived in the Golden Age of mankind. She was born a mortal and placed on Earth to rule over human justice. The Golden Age was marked by prosperity and peace, everlasting spring, and humans never knowing old age. When Zeus fulfilled the old prophecy and overthrew his father, this marked the beginning of the Silver Age, which was not as prosperous. Zeus introduced the four seasons and humans no longer honoured the gods as they had used to. Dike gave a speech to the entire race, warning them about the dangers of leaving behind the ideals of their predecessors and saying worse was yet to come. Then she flew to the mountains, turning her back on humans. When the Bronze and Iron Ages came and humans started warring among themselves, Dike left the Earth altogether, and flew to the heavens. In other stories, the constellation Virgo is identified with Demeter, the corn goddess Atargatis, the Syrian goddess of fertility, and Erigone, the daughter of Icarius, who hanged herself after her father’s death. In this version of the myth, Icarius is associated with the constellation Boötes and the star Procyon in Canis Minor represents Icarius’ loyal dog Maera. Historians Eratosthenes and Hyginus also associate the constellation Virgo with Tyche, the goddess of fortune, even though Tyche is usually depicted as holding the horn of plenty and not an ear of grain. The name of the star Spica, which marks the ear of grain held by the goddess, means exactly that, 'the ear of grain' in Latin.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Volans',
                 'image_name' => 'volans',
                 'alias' => 'The Flying Fish',
-                'details' => "",
-                'myth' => "",
+                'details' => "Volans is the 76th constellation in size, occupying an area of 141 square degrees. It is located in the second quadrant of the southern sky (SQ2) and can be seen at latitudes between +15° and -90°. The neighboring constellations are Carina, Chamaeleon, Dorado, Mensa and Pictor. Volans belongs to the Johann Bayer family of constellations, along with Apus, Chamaeleon, Dorado, Grus, Hydrus, Indus, Musca, Pavo, Phoenix and Tucana.",
+                'myth' => "Volans is one of the 12 constellations that were introduced by the Dutch navigators Pieter Dirkszoon Keyser and Frederick de Houtman in the late 16th century. It was first depicted on Petrus Plancius’ globe in 1598. Plancius called the constellation Vliegendenvis. In 1603, Johann Bayer included the constellation in his star atlas Uranometria under the name Piscis Volans, the flying fish. It was known by that name until the mid-19th century. It was John Herschel who suggested that the name be shortened to just Volans. In 1845, Francis Baily included the constellation in his British Association Catalogue as Volans and the name has stuck ever since. Volans represents a type of tropical fish that can jump out of the water and glide through the air on wings. In the sky, the flying fish is often depicted as being chased by the predatory fish represented by Dorado constellation.",
                 'hemisphere' => 'Southern',
-                'season' => ''
+                'season' => 'Spring'
             ],
             [
                 'name' => 'Vulpecula',
                 'image_name' => 'vulpecula',
                 'alias' => 'The Fox',
-                'details' => "",
-                'myth' => "",
+                'details' => "Vulpecula is the 55th constellation in size, occupying an area of 268 square degrees. It is located in the fourth quadrant of the northern hemisphere (NQ4) and can be seen at latitudes between +90° and -55°. The neighboring constellations are Cygnus, Delphinus, Hercules, Lyra, Pegasus and Sagitta. Vulpecula belongs to the Hercules family of constellations, along with Aquila, Ara, Centaurus, Corona Australis, Corvus, Crater, Crux, Cygnus, Hercules, Hydra, Lupus, Lyra, Ophiuchus, Sagitta, Scutum, Sextans, Serpens and Triangulum Australe.",
+                'myth' => "Vulpecula constellation has not been named after a figure in mythology. It was introduced by Johannes Hevelius in 1687. Hevelius placed it near two constellations that also represent hunting animals: the eagle (Aquila) and the vulture (which the constellation Lyra used to be associated with). Hevelius said that Vulpecula et Anser, or the little fox with the goose, represented a fox carrying a goose to Cerberus, the dog that guarded the entrance to the Underworld in Greek mythology. Hevelius had invented the Cerberus constellation too, but it is now obsolete. Vulpecula and Anser were later split into two constellations, the Fox and the Goose, only to be merged again under the name Vulpecula. The brightest star in the constellation, Alpha Vulpeculae, carries the name Anser and now represents the Goose.",
                 'hemisphere' => 'Northern',
-                'season' => ''
+                'season' => 'Fall'
             ],
           ];
 

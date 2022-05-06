@@ -1,7 +1,7 @@
 <x-header />
 
     <div class="container">
-        <h2 style="text-align: center; font-weight: bold; color: white;">
+        <h2 style="text-align: center; font-size: 50px; color: white;">
             {{ $constellation->name }}, {{ $constellation->alias }}
         </h2>
         <div>
@@ -25,17 +25,21 @@
             </p>
         </div>
 
+        <div class="row" style="margin-bottom: 20px">
         <div class="card" style="background-color: rgba(255,255,255,.7)">
-            <label class="h4" style="font-weight: bold; margin: 5px;">Details:</label>
+            <label class="h4" style="font-weight: bold; font-size: 30px; margin: 5px;">Details:</label>
             <p style="font-size: 20px; margin: 5px;">
                 {{ $constellation->details }}
             </p>
-            @if($constellation->myth != '')
-                <label class="h4" style="font-weight: bold; margin: 5px;">Mythological Connections:</label>
-                <p style="font-size: 20px; margin: 5px;">
-                    {{ $constellation->myth }}
-                </p>
-            @endif      
+        </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px">
+        <div class="card" style="background-color: rgba(255,255,255,.7)">
+            <label class="h4" style="font-weight: bold; font-size: 30px; margin: 5px;">Origin / Mythological Connections:</label>
+            <p style="font-size: 20px; margin: 5px;">
+                {{ $constellation->myth }}
+            </p>      
+        </div>
         </div>
     </div>
 
