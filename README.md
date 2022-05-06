@@ -4,7 +4,7 @@
 eighty-eight
 </h1>
 
-## GitHub Repository
+## Repository
 <a href="https://github.com/ameliaabou/laravel-app">https://github.com/ameliaabou/laravel-app</a>
 ## Features
 
