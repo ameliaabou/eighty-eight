@@ -23,7 +23,6 @@
         <br><br>
         <div>
             @foreach ($starcharts as $starchart)
-                {{-- TODO: do this implicitly --}}
                     <div class="row" style="margin-bottom: 20px">
                         <div class="card" style="background-color: rgba(255,255,255,.6)">
                         <div class="col-md" style="text-align: center;">

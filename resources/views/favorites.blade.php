@@ -8,7 +8,6 @@
             @foreach ($favorites as $favorite)
                 <div class="col" style="margin-bottom: 20px">
                     <div class="card" style="width: 302px;">
-                        {{-- TODO: do this implicitly --}}
                         <a href="/constellation/{{ $favorite->constellation_id }}"><img src="/images/{{ $favorite->constellations->image_name }}.jpg" width="300" height="200"></a>
                         <label class="h4" style="text-align: center; float: left;">
                             {{ $favorite->constellations->alias }}</label>

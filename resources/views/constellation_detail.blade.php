@@ -1,7 +1,7 @@
 <x-header />
 
     <div class="container">
-        <h2 style="text-align: center; font-weight: bold; color: white;">
+        <h2 style="text-align: center; font-size: 50px; color: white;">
             {{ $constellation->name }}, {{ $constellation->alias }}
         </h2>
         <div>
@@ -15,7 +15,6 @@
                 <label class="h4" style="color: white;">Hemisphere: {{ $constellation->hemisphere }}</label> <br>
                 <label class="h4" style="color: white;">Season: {{ $constellation->season }}</label>
                 <form method="POST" action="/add-to-favorites">
-                    <!-- TODO:error 419 -->
                     @csrf
                     <div class="form-group">
                         <input  type="hidden" name="user_id" value="{{ Auth::user()->id }}">
@@ -26,15 +25,21 @@
             </p>
         </div>
 
+        <div class="row" style="margin-bottom: 20px">
         <div class="card" style="background-color: rgba(255,255,255,.7)">
-            <label class="h4" style="font-weight: bold; margin: 5px;">Details:</label>
+            <label class="h4" style="font-weight: bold; font-size: 30px; margin: 5px;">Details:</label>
             <p style="font-size: 20px; margin: 5px;">
                 {{ $constellation->details }}
             </p>
-            <label class="h4" style="font-weight: bold; margin: 5px;">Mythological Connections:</label>
+        </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px">
+        <div class="card" style="background-color: rgba(255,255,255,.7)">
+            <label class="h4" style="font-weight: bold; font-size: 30px; margin: 5px;">Origin / Mythological Connections:</label>
             <p style="font-size: 20px; margin: 5px;">
                 {{ $constellation->myth }}
-            </p>            
+            </p>      
+        </div>
         </div>
     </div>
 

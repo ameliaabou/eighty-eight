@@ -1,63 +1,109 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><img src="./public/images/logo.png" width="200"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1 align="center">
+eighty-eight
+</h1>
 
-## About Laravel
+## Repository
+<a href="https://github.com/ameliaabou/laravel-app">https://github.com/ameliaabou/laravel-app</a>
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This application was created with the purpose of providing people with a website where they can explore the basics of star-gazing. 
+Users can learn about the 88 officially recognized constellations, read about notable celestial events happening month-by-month, download star-charts to assist with observational astronomy, add (and remove) constellations to their favorites list, and test their constellation recognition by playing a game. 
+### Stack
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Laravel (in-class stack)
+- (PHP, MySQL, Javascript, Blade, CSS)
+- Laravel Breeze (authentication/authorization)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Styling:
+- Bootstrap
+- Tailwind
+- Google Fonts
 
-## Learning Laravel
+## Deployment
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Clone this repository
+- sail up
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Take the FULL tour (Testing)
+*A step-by-step guide*
 
-## Laravel Sponsors
+#### Register
+1. Press 'Don't have an account?' on the bottom of the Login form, or navigate to localhost/register
+2. Enter your name and email
+- An error will appear at submission if email does not match the required format 'xxx@xxx.xxx'
+3. Enter your password
+- An error will appear if your password is not at least 8 characters long
+4. Confirm your password
+- An error will appear if your passwords do not match
+5. Click 'Register' to create your account.
+- You will be logged in automatically.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+#### Logout
+1. Press the black 'Log Out' button on the nav bar to log out.
+- You will be redirected to the login page.
 
-### Premium Partners
+#### Route Protection (logged out)
+1. Try to navigate to localhost/, localhost/constellations, or any other established route (see web.php for other options)
+- You will be redirected to the login page.
+2. Try to navigate to a page that doesn't exist (try localhost/wow)
+- You will be redirected to the 404 page.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+#### Login 
+1. Enter the email and password you registered with.
+- If you enter your password wrong 3 times in a row, you will be locked out for a minute.
+2. Press 'Log In'
+- You will be redirected to the home page.
 
-## Contributing
+#### Constellations
+1. Press 'Constellations' in the nav bar
+- You will be redirected to the constellations page which lists all 88 constellations.
+2. Scroll to view each constellation (image with name, nickname below)
+3. Click on any constellation to view it in more detail
+- You will be redirected to detail page which shows the constellation's nickname, image, hempsphere, season, details, and origin/mythological connections. 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+#### Star Charts
+1. Press 'Star Charts' in the nav bar
+- You will be redirected to the star-charts page, which explains what a star chart is and how to use one, along with monthly star charts and information regarding monthly celestial events.
+2. Scroll to any star chart and press 'Download (B&W)'
+- A pdf with a black and white version of the star chart will be downloaded to your computer.
+3. Scroll to any star chart and press 'Download (Color)'
+- A pdf with a full-color version of the star chart will be downloaded to your computer.
 
-## Code of Conduct
+#### Play Game
+1. Press 'Play Game' in the nav bar
+- You will be redirected to the constellation-game page which shows an un-named constellation and a text input bar for the user to guess the name of the constellation.
+2. Guess the name of the constellation by typing it in the 'Take a guess!' field
+3. Press 'Check'
+- You will be redirected to the constellation-game/check page
+- It will display the name of the constellation and whether or not your guess was correct. If incorrect, it will show your guess alongside the image.
+4. Press 'Next' to go to the next constellation
+- Note: this game is infinite and draws one of the 88 constellations randomly each time.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+#### Favorites
+1. Press 'Favorites' in the nav bar
+- You will be redirected to the favorites page which will display all the constellations you choose to favorite
+- Initially, it will show that you have no favorites. ('No Favorites :(')
+2. Press 'Constellations' in the nav bar
+3. Click on any constellation
+4. Press 'Add to Favorites' on the constellation detail page
+- You will be redirected to the favorites page, which will now show the constellation you just favorites
+5. Repat steps 2-4 as many times as you'd like
+- Note: constellations will not be added more than once to your favorites list
+6. To remove a favorite, press the X in the top right corner of the constellation image you wish to remove from your list
+- Your favorites list will be updated and will no longeer show that constellation
+7. Click on a constellation in your favorites
+- You will be redirected to the constellation detail page for that constellation
 
-## Security Vulnerabilities
+#### Route Protection (logged in)
+1. Attempt to navigate to localhost/add-to-favorites or localhost/remove-from-favorites
+- You will be redirected to the home page, no action will be done.
+2. Attempt to navigate to localhost/constellation-game/check
+- You will be redirected to the constellation-game page.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## That's all!
+Thank you!
 
 ## License
 
