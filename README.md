@@ -12,7 +12,9 @@ This application was created with the purpose of providing people with a website
 Users can learn about the 88 officially recognized constellations, read about notable celestial events happening month-by-month, download star-charts to assist with observational astronomy, add (and remove) constellations to their favorites list, and test their constellation recognition by playing a game. 
 ### Stack
 
-- Laravel
+- Laravel (in-class stack)
+- (PHP, MySQL, Javascript, Blade, CSS)
+- Laravel Breeze (authentication/authorization)
 
 Styling:
 - Bootstrap
