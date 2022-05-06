@@ -32,7 +32,7 @@ Styling:
 #### Register
 1. Press 'Don't have an account?' on the bottom of the Login form, or navigate to localhost/register
 2. Enter your name and email
-- An error will appear at submission if email does not match the required format '___@___.___'
+- An error will appear at submission if email does not match the required format 'xxx@xxx.xxx'
 3. Enter your password
 - An error will appear (your password is not at least 8 characters long)
 4. Confirm your password
