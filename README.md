@@ -1,9 +1,10 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="./public/images/logo.png" width="400"></a></p>
+<p align="center"><img src="./public/images/logo.png" width="200"></p>
 
-<p align="center">
-wowx
-</p>
+<h1 align="center">
+eighty-eight
+</h1>
 
+# eighty-eight
 ## About eighty-eight
 
 constellation stuffs:
