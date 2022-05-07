@@ -24,11 +24,15 @@ Styling:
 ## Deployment
 
 - Clone this repository
+- sail up
+- sail composer require laravel/breeze --dev
+- npm install
+- npm run dev
 - sail artisan migrate
 - sail artisan db:seed --class=ConstellationsTableSeeder
 - sail artisan db:seed --class=StarChartsTableSeeder
 - (optional: uses factory to create users) sail artisan db:seed --class=DatabaseSeeder
-- sail up
+- go to localhost in your browser
 
 ## Take the FULL tour (Testing)
 *A step-by-step guide*
